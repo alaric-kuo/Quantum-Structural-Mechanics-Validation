@@ -8,6 +8,8 @@ $$a(t),v(t)\rightarrow P_{\mathrm{in}}(t)=a(t)v(t)\rightarrow F_{\mathrm{interfa
 
 In this view, a seismic wave is treated as an incoming power field. The isolation displacement is interpreted as the final manifestation of power after it enters the isolation interface, forms interface power/work exchange, and is converted into measurable upper-lower displacement response.
 
+Note: Raw data not redistributed here. Please refer to the data source link. The data folder in this repo contains processed material from raw data. 
+
 ---
 
 ## Core Question

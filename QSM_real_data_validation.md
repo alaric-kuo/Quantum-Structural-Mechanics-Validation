@@ -111,7 +111,7 @@
 4. 觀察能勢波包 (Power Packet) 是否進入隔震介面，形成 $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ 與介面做功。
 5. 將 QSM Power Flow 展開為頻率群，觀察其與有效隔震頻率族之間的接觸、轉換與位移顯化。
 
-這五步合起來，就是本文的 QSM Power viewpoint transformation。
+這五步合起來，就是本文的量子結構力學能勢視角轉型。
 
 ---
 

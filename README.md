@@ -32,7 +32,11 @@ The central finding is that the clearest relationship with measured upper-lower 
 
 ## Research Basis
 
-This repository is built on the experimental study and public dataset listed below.
+This repository is built on a QSM validation article, the source experimental study, and the public experimental dataset listed below.
+
+### How to Cite This Work
+
+Kuo, H.-J. (2026). *Validating Quantum Structural Mechanics with Spherical Sliding Isolation Test Data*. GitHub. https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation
 
 ### References
 
@@ -477,7 +481,13 @@ This provides a different interpretation of seismic isolation response:
 
 ## Citation
 
-If you use this repository, please cite the QSM framework and the source experimental study:
+If you use this repository, cite this validation work first:
+
+```text
+Kuo, H.-J. (2026). Validating Quantum Structural Mechanics with Spherical Sliding Isolation Test Data. GitHub. https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation
+```
+
+Then cite the QSM framework, source experimental study, and source dataset where appropriate:
 
 ```text
 Kuo, H.-J. (2026). Quantum Structural Mechanics: From Stiffness Assets to Value Flow. ResearchGate. https://doi.org/10.13140/RG.2.2.27121.13928

@@ -533,6 +533,8 @@ Group4 是 Spectrally Matched Group。它對本文非常重要，因為它直接
 
 QSM 的回答是：不一定。反應譜相似，不代表 QSM Power Flow、Interface Work exchange 與 frequency-group contact 相同。
 
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group4/Group4_Fig01_core_power_viewpoint_transformation.png)
+
 Group4 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 仍然偏弱：
 
 
@@ -560,9 +562,7 @@ Pearson r ≈ 0.676，Spearman ρ ≈ 0.576。
 
 它比 acceleration、velocity、輸入端 QSM Power 更接近 隔震位移峰值 (IsoDisp peak)。這說明 Group4 的差異真正開始在介面層被放大：輸入端看起來已經被頻譜匹配整理過，但到了隔震介面，Interface Power / Work Exchange 仍顯示不同的能勢交換強度。
 
-[建議置入 Group4 Figure 1：頻譜匹配組之 加速度／速度、QSM Power、Interface Work 與 IsoDisp 關係]
-
-[建議置入 Group4 Figure 2：頻譜匹配組之 QSM Power 頻率群接觸圖譜 (Frequency-Group Contact Map)]
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group4/Group4_Fig02_qsm_power_frequency_group_contact_combined.png)
 
 Group4 Figure 2 是本文對 頻譜匹配 最直接的補充證據。這組資料在反應譜上經過匹配，照理說傳統讀法會期待它們具有較接近的反應需求；但頻率群接觸圖譜 (Frequency-Group Contact Map) 顯示，即使反應譜被整理過，QSM Power Frequency Group 仍然保有明顯差異。
 
@@ -575,6 +575,8 @@ Group4 Figure 2 是本文對 頻譜匹配 最直接的補充證據。這組資�
 ## Group4 代表案例
 
 ### RSN170M：中高位移頻譜匹配案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group4/RSN170M_1_0_31_V25_core_diagnosis.png)
 
 RSN170M 的量測隔震位移峰值為 397.9 mm，峰值時間約為 61.37 s。其主要數值如下：
 
@@ -594,6 +596,8 @@ RSN170M 的量測隔震位移峰值為 397.9 mm，峰值時間約為 61.37 s。�
 
 ### RSN802M：高位移頻譜匹配案例
 
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group4/RSN802M_1_0_31_V25_core_diagnosis.png)
+
 RSN802M 的量測隔震位移峰值為 659.7 mm，峰值時間約為 25.85 s。其主要數值如下：
 
 - 輸入加速度峰值 (Input Acceleration Peak)：0.39 g
@@ -611,6 +615,8 @@ RSN802M 的量測隔震位移峰值為 659.7 mm，峰值時間約為 25.85 s。�
 這筆資料的關鍵在於，它同時呈現較大的位移反應與明顯的介面做功交換。從 J 圖閱讀時，Displacement Response Frequency Group 不是任意散落，而是集中在低頻序列，並與有效隔震頻率族形成可讀的關係。因此，RSN802M 適合作為「能勢進入介面後顯化為大位移」的代表案例。
 
 ### RSN8130M：中等位移頻譜匹配案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group4/RSN8130M_1_0_31_V25_core_diagnosis.png)
 
 RSN8130M 的量測隔震位移峰值為 118.4 mm，峰值時間約為 34.83 s。其主要數值如下：
 

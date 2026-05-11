@@ -644,3 +644,21 @@ Group4 的核心貢獻，是指出 頻譜匹配 的盲點：它同步的是反�
 對工程應用而言，這代表未來隔震系統評估除了關心「輸入地震有多大」，也需要關心「地震能勢如何進入系統」。如果隔震系統能把輸入能勢導成通道、分流或耗散，位移顯化就有機會被降低；如果能勢集中在介面，隔震層就可能被推向大位移。
 
 本文因此建立了量子結構力學的第一個真實資料驗證基礎：地震波可以被閱讀為能勢場，隔震位移可以被閱讀為能勢通過介面後的顯化結果。
+
+---
+
+## 參考文獻與資料來源
+
+本文所使用之實驗資料，來自 Yang、Lin、Chang 與 Huang 公開於 Zenodo 的球面滑動隔震系統實驗資料集。該資料集對應之研究論文發表於 *Earthquake Spectra*，主題為球面滑動隔震系統在脈衝型地震波作用下的反應。原研究已指出，對隔震系統而言，僅以加速度或平均反應譜加速度作為判斷依據，無法充分解釋實際隔震位移；速度脈衝、脈衝週期與隔震系統有效週期，皆應被納入分析。
+
+本文承接上述研究的資料與問題意識，進一步引入量子結構力學（Quantum Structural Mechanics, QSM）的視角：結構反應不只可被理解為剛度與位移之間的關係，也可被重新閱讀為能量流動、拓樸通道與介面交換的過程。本文因此將輸入加速度與速度合成為輸入端能勢流，並觀察其與介面做功、隔震位移及頻率群顯化之間的關係。
+
+### 參考文獻
+
+1. Yang, Y.-H., Huang, Y.-N., Lin, Y.-C., & Chang, C.-C. (2026). *An experimental study of a spherical sliding isolation system subjected to pulse-like ground motions*. **Earthquake Spectra**. https://doi.org/10.1002/esp4.70074
+
+2. Kuo, H.-J. (2026). *Quantum Structural Mechanics: From Stiffness Assets to Value Flow*. ResearchGate. https://doi.org/10.13140/RG.2.2.27121.13928
+
+### 資料來源
+
+1. Yang, Y.-H., Lin, Y.-C., Chang, C.-C., & Huang, Y.-N. (2025). *Dataset of an Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15606761

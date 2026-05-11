@@ -119,7 +119,7 @@
 
 本文的圖像分析分為三個層次。第一層是跨案例群組 Group1–4 的總體關係，用來觀察加速度、速度、QSM Power Flow、介面做功與隔震位移之間的整體趨勢。第二層是各案例群組的分組關係，用來保留短週期脈衝、中週期脈衝、非脈衝與頻譜匹配資料之間的差異。第三層是單筆資料的診斷圖，用來檢查時間波形、能勢波包、頻率群、介面做功與位移峰值是否能形成一條可追蹤的機制鏈。
 
-[建議置入 Figure 1：跨案例群組 Group1–4 的總體相關性與 QSM 視角轉換]
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig01_core_power_viewpoint_transformation.png)
 
 跨案例群組的 Figure 1 用來回答第一個問題：若以量測隔震位移峰值 (Measured Upper-Lower Isolation displacement peak) 作為反應量，輸入加速度峰值 (Input Acceleration Peak)、輸入速度峰值 (Input Velocity Peak)、輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)、輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)、量測介面做功波包 (Measured Interface Power/Work Packet)，以及累積介面做功 (Accumulated Interface Work) 分別能提供多少解釋力。這張圖的目的不是把所有現象壓成單一分數，而是呈現資料如何從加速度／速度指標，逐步轉向能勢／做功指標。
 
@@ -134,8 +134,7 @@
 → 累積介面做功 (Accumulated Interface Work)
 → 隔震位移 (Isolation Displacement)
 ```
-
-[建議置入 Figure 2：跨案例群組 Group1–4 的 QSM Power 頻率群接觸圖譜 (Frequency-Group Contact Map)]
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig02_qsm_power_frequency_group_contact_combined.png)
 
 跨案例群組的 Figure 2 用來回答第二個問題：當輸入地震被轉成 QSM Power Flow 後，它在頻率域中如何展開。這張圖應被視為頻率群接觸圖譜 (Frequency-Group Contact Map)。每一筆地震資料都有一組 QSM Power 頻率峰值；同一筆資料在圖上會形成同一條位移水準附近的多個點。這些點與 $0.5f_{\mathrm{eff}}$ 、 $f_{\mathrm{eff}}$ 、 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 的相對關係，提供了能勢如何接觸隔震系統入口頻率族的線索。更重要的是，單筆 J 圖進一步顯示：許多高位移案例的 Displacement Response Frequency 不是任意散落，而是貼近系統有效頻率及其倍頻序列。這使本文可以把 $f_{\mathrm{eff}}$ 從單一設計參數，重新理解為一組能勢入口的基準尺度。
 
@@ -198,6 +197,8 @@ $$
 
 Group1 是短週期脈衝案例。它不是位移最大的一組，但非常適合用來建立 QSM 的時間事件觀點。
 
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/Group1_Fig01_core_power_viewpoint_transformation.png)
+
 在 Group1 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 的關係很弱，甚至呈現負相關：
 
 
@@ -217,9 +218,7 @@ Pearson r ≈ 0.854，Spearman ρ ≈ 0.733。
 
 Group1 的最大價值在於：它不只相關性漂亮，時間上也非常有力。許多案例中，QSM Power Packet peak 與 displacement peak 非常接近。這表示位移峰值不是整段地震能量慢慢平均累積出來，而是在關鍵短時間窗內，由能勢波包進入介面後快速推動形成。
 
-[建議置入 Group1 Figure 1：短週期脈衝組之 加速度／速度、QSM Power、Interface Work 與 IsoDisp 關係]
-
-[建議置入 Group1 Figure 2：短週期脈衝組之 QSM Power 頻率群接觸圖譜 (Frequency-Group Contact Map)]
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/Group1_Fig02_qsm_power_frequency_group_contact_combined.png)
 
 Group1 Figure 2 是理解短週期脈衝組的重要圖。它顯示，Group1 的高位移案例並不是只集中在單一頻率點，而是在有效隔震頻率族附近與其倍頻帶上形成多點接觸。上半圖保留完整 QSM Power Frequency Group，可以看到同一筆資料在固定 IsoDisp 水準上展開成多個頻率點；下半圖則放大靠近 $0.5f_{\mathrm{eff}}$ 、 $f_{\mathrm{eff}}$ 、 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 的區域。這張圖的重點不是宣稱某一個倍頻單獨控制位移，而是顯示短週期脈衝會把能勢推入一組頻率入口，最後再由隔震系統轉化為較低頻的位移反應。
 
@@ -230,6 +229,8 @@ Group1 Figure 2 是理解短週期脈衝組的重要圖。它顯示，Group1 的
 ## Group1 代表案例
 
 ### RSN784：低位移案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/RSN784_1_0_21_V25_core_diagnosis.png)
 
 RSN784 的量測隔震位移峰值為 73.06 mm，峰值時間約為 11.95 s。其主要數值如下：
 
@@ -249,6 +250,8 @@ RSN784 的量測隔震位移峰值為 73.06 mm，峰值時間約為 11.95 s。�
 
 ### RSN1013：中等位移案例
 
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/RSN1013_1_0_21_V25_core_diagnosis.png)
+
 RSN1013 的量測隔震位移峰值為 150.2 mm，峰值時間約為 3.297 s。其主要數值如下：
 
 - 輸入加速度峰值 (Input Acceleration Peak)：0.343 g
@@ -266,6 +269,8 @@ RSN1013 的量測隔震位移峰值為 150.2 mm，峰值時間約為 3.297 s。�
 這筆資料屬於中等位移反應。它的價值在於提供對照：即使存在 QSM Power Frequency Group 與 Interface Frequency Group，若介面做功波包或位移接收條件不足，位移仍不會被推到最高層級。
 
 ### RSN4102：低位移案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/RSN4102_1_0_21_V25_core_diagnosis.png)
 
 RSN4102 的量測隔震位移峰值為 44.58 mm，峰值時間約為 0.836 s。其主要數值如下：
 

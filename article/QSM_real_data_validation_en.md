@@ -11,7 +11,7 @@ This article follows that empirical conclusion and moves one step further. The f
 
 The results show that the quantity closest to the isolation displacement response is not a single input acceleration peak or a single input velocity peak. The clearer relationship appears after the input power enters the isolation interface and forms Interface Power / Work Exchange. The summary figure across Case Groups Group1–4 shows that the Measured Interface Power/Work Packet has the clearest relationship with the Measured Upper-Lower Isolation Displacement Peak. The frequency-group maps also show that the isolation response should not be reduced to one effective frequency or one effective period. $f_{\mathrm{eff}}$ is an entry scale, but behind it there is still a conversion relationship among the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group. In the Frequency-Group Closure comparison of individual Diagnosis Figures, high-displacement cases often show displacement response frequencies close to $f_{\mathrm{eff}}$ and its orderly harmonic sequence. This indicates that the effective frequency is not a single control value, but a family of entry frequencies that can be contacted, converted, and manifested by the incoming power.
 
-The core conclusion is that, for an isolation system, a seismic wave can be viewed as a power field entering the structure. When this field cannot be converted smoothly by the isolation system into a stable channel, it forms work exchange at the interface and manifests as observable isolation displacement. This is the QSM interpretation of the original experimental data, and it is also the first attempt to build mechanism-based validation for Quantum Structural Mechanics using real experimental data.
+The core conclusion is that, for an isolation system, a seismic wave can be viewed as a power field passing through the structural system. When the structure cannot convert this field into a stable energy-flow channel, the power is expressed at the interface as work exchange and is finally manifested as observable isolation displacement. This is the QSM interpretation of the original experimental data, and it is also the first attempt to build mechanism-based validation for Quantum Structural Mechanics using real experimental data.
 
 ---
 
@@ -21,7 +21,7 @@ The core conclusion is that, for an isolation system, a seismic wave can be view
 The structural-analysis viewpoint used in this article. It treats a seismic wave as a wavefunction-like input and treats a structure as a system in which power enters, transmits, exchanges, dissipates, and manifests, rather than only as a stiffness system that receives external force and produces displacement.
 
 **Isolation Displacement (IsoDisp)**  
-The relative displacement between the upper structure and the lower base. It is the displacement response actually received and manifested by the isolation layer. This article mainly compares the Measured Upper-Lower Isolation Displacement Peak.
+The relative displacement between the upper structure and the lower base. It is the displacement response actually received and manifested by the isolation layer. This article mainly compares the Measured Upper-Lower Isolation Displacement Peak. The displacement values reported in this reanalysis are computed from the measured upper-lower relative displacement channel used consistently across the dataset. They should be read as the displacement metric of this QSM reanalysis, not as a direct reproduction of every displacement value tabulated in the original paper.
 
 **Input Acceleration Peak**  
 The peak value in the input acceleration time history. It is one of the common input-intensity descriptions in earthquake engineering. The analysis in this article shows that this value alone is not sufficient to explain isolation displacement.
@@ -45,7 +45,7 @@ A concentrated QSM Power Flow within a short time window. This article uses a on
 The quantity $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ at the isolation interface and its time integral. It describes the exchange and work done after the input power actually enters the isolation interface. In later sections, Interface Power, Interface Work, and Interface Power/Work Packet all refer to this interface-level power and work response.
 
 **Measured Interface Power/Work Packet**  
-The short-time interface power / work exchange obtained from measured interface data. The cross-case-group summary shows that this quantity has the clearest relationship with the Measured Upper-Lower Isolation Displacement Peak.
+The short-time interface power / work exchange obtained from measured interface data. It is a derived quantity computed from measured response data in this reanalysis, rather than a metric originally defined by the source paper. The cross-case-group summary shows that this quantity has the clearest relationship with the Measured Upper-Lower Isolation Displacement Peak.
 
 **Accumulated Interface Work**  
 The total accumulated value of Interface Power / Work Exchange over time. It can reflect overall work at the interface. The results in this article show that, in some Case Groups, the short-time interface work packet is closer to displacement peak than accumulated work.
@@ -245,7 +245,7 @@ Its Frequency-Group Closure comparison is:
 
 This record is a low-displacement response. Its value is that it provides a low-response reference case. It shows that frequency-group contact alone is not sufficient; power magnitude, interface work exchange, and displacement frequency manifestation must all work together to form large displacement.
 
-### RSN1013: Medium-Displacement Case
+### RSN1013: Representative High-Response Case in Group1
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/RSN1013_1_0_21_V25_core_diagnosis.png)
 
@@ -263,7 +263,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.666;1.554;2.442 Hz
 - Displacement Response Frequency Group: 0.137;0.274;0.411;0.548;0.685;0.822;0.959 Hz
 
-This record is a medium-displacement response. Its value is that it provides a comparison case: even when the QSM Power Frequency Group and Interface Frequency Group exist, displacement will not necessarily reach the highest level if the interface work packet or displacement receiving condition is insufficient.
+This record is a representative high-response case within Group1. Its value is that it shows how a strong Input-Side QSM Power Peak and a clear Interface Power/Work Packet can appear together with a high displacement response inside the short-period pulse group.
 
 ### RSN4102: Low-Displacement Case
 
@@ -620,7 +620,7 @@ The core contribution of Group4 is that it identifies a blind spot of spectral m
 
 ---
 
-# 8. Conclusion: Seismic Waves as power Fields and Isolation Displacement as Interface Manifestation
+# 8. Conclusion: Seismic Waves as Power Fields and Isolation Displacement as Interface Manifestation
 
 This article uses real experimental data from a spherical sliding isolation system to conduct the first empirical validation of Quantum Structural Mechanics. This work follows the most important finding of the original study: acceleration alone, or average spectral acceleration alone, cannot sufficiently explain isolation displacement. This article moves forward from that empirical result and attempts to explain how seismic waves pass through velocity, power flow, interface work, and Frequency Groups before manifesting as isolation displacement.
 
@@ -634,13 +634,13 @@ The Frequency-Group Closure comparison in individual Diagnosis Figures is one of
 
 Therefore, the core QSM statement of this article can be summarized as follows:
 
-> For a structure, a seismic wave is a power field passing through the system. When the structure this field cannot be converted into a stable energy-flow channel, the power forms work exchange at the interface and manifests as isolation displacement.
+> For a structure, a seismic wave is a power field passing through the system. When the structure in this field cannot be converted into a stable energy-flow channel, the power forms work exchange at the interface and manifests as isolation displacement.
 
 This is also the main contribution of this article to the original experimental data. The original study has shown that acceleration alone cannot explain isolation displacement. This article further explains that velocity, power flow, interface work, and Frequency Groups together form a more complete path for reading the data. The value of QSM Power Flow is that it moves the seismic input from Input Motion to Power Packet, then to Interface Exchange, and finally to Frequency-Group Manifestation. This path allows us to describe more clearly how seismic power enters the system, passes through the interface, contacts Frequency Groups, and finally becomes displacement.
 
 For engineering application, this means that future isolation-system evaluation should not only ask how large the input earthquake is. It should also ask how the seismic power enters the system. If the isolation system can guide the input power into channels, diversion, or dissipation, the displacement manifestation may be reduced. If the power concentrates at the interface, the isolation layer may be pushed into large displacement.
 
-This article therefore establishes the first real-data validation basis for Quantum Structural Mechanics: seismic waves can be read as power fields, and isolation displacement can be read as the manifestation of power after it passes through the interface.
+This article therefore establishes the first real-data validation basis for Quantum Structural Mechanics: seismic waves can be read as power fields passing through structural systems, and isolation displacement can be read as the manifestation of power after it is converted through the interface.
 
 ---
 

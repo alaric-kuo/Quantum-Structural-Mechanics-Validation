@@ -9,16 +9,16 @@ This article uses the public experimental data from *An Experimental Study of a 
 
 This article follows that empirical conclusion and moves one step further. The first layer of checking shows that the correlation between Input Acceleration Peak and Isolation Displacement Peak is weak. The second layer shows that the relationship between Input Velocity Peak and Isolation Displacement becomes much clearer. The article then combines acceleration and velocity into Input-Side QSM Power Flow, written as $P_{\mathrm{in}}(t)=a(t)v(t)$ , and further observes the 1s Power Packet, Interface Power / Work Exchange, Accumulated Interface Work, and the contact relationship between the QSM Power Frequency Group and the Effective Isolation Frequency Group.
 
-The results show that the quantity closest to the isolation displacement response is not a single input acceleration peak or a single input velocity peak. The clearer relationship appears after the input power-potential enters the isolation interface and forms Interface Power / Work Exchange. The summary figure across Case Groups Group1–4 shows that the Measured Interface Power/Work Packet has the clearest relationship with the Measured Upper-Lower Isolation Displacement Peak. The frequency-group maps also show that the isolation response should not be reduced to one effective frequency or one effective period. $f_{\mathrm{eff}}$ is an entry scale, but behind it there is still a conversion relationship among the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group. In the Frequency-Group Closure comparison of individual Diagnosis Figures, high-displacement cases often show displacement response frequencies close to $f_{\mathrm{eff}}$ and its orderly harmonic sequence. This indicates that the effective frequency is not a single control value, but a family of entry frequencies that can be contacted, converted, and manifested by the incoming power-potential.
+The results show that the quantity closest to the isolation displacement response is not a single input acceleration peak or a single input velocity peak. The clearer relationship appears after the input power enters the isolation interface and forms Interface Power / Work Exchange. The summary figure across Case Groups Group1–4 shows that the Measured Interface Power/Work Packet has the clearest relationship with the Measured Upper-Lower Isolation Displacement Peak. The frequency-group maps also show that the isolation response should not be reduced to one effective frequency or one effective period. $f_{\mathrm{eff}}$ is an entry scale, but behind it there is still a conversion relationship among the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group. In the Frequency-Group Closure comparison of individual Diagnosis Figures, high-displacement cases often show displacement response frequencies close to $f_{\mathrm{eff}}$ and its orderly harmonic sequence. This indicates that the effective frequency is not a single control value, but a family of entry frequencies that can be contacted, converted, and manifested by the incoming power.
 
-The core conclusion is that, for an isolation system, a seismic wave can be viewed as a power-potential field entering the structure. When this field cannot be converted smoothly by the isolation system into a stable channel, it forms work exchange at the interface and manifests as observable isolation displacement. This is the QSM interpretation of the original experimental data, and it is also the first attempt to build mechanism-based validation for Quantum Structural Mechanics using real experimental data.
+The core conclusion is that, for an isolation system, a seismic wave can be viewed as a power field entering the structure. When this field cannot be converted smoothly by the isolation system into a stable channel, it forms work exchange at the interface and manifests as observable isolation displacement. This is the QSM interpretation of the original experimental data, and it is also the first attempt to build mechanism-based validation for Quantum Structural Mechanics using real experimental data.
 
 ---
 
 ## Terminology
 
 **Quantum Structural Mechanics (QSM)**  
-The structural-analysis viewpoint used in this article. It treats a seismic wave as a wavefunction-like input and treats a structure as a system in which power-potential enters, transmits, exchanges, dissipates, and manifests, rather than only as a stiffness system that receives external force and produces displacement.
+The structural-analysis viewpoint used in this article. It treats a seismic wave as a wavefunction-like input and treats a structure as a system in which power enters, transmits, exchanges, dissipates, and manifests, rather than only as a stiffness system that receives external force and produces displacement.
 
 **Isolation Displacement (IsoDisp)**  
 The relative displacement between the upper structure and the lower base. It is the displacement response actually received and manifested by the isolation layer. This article mainly compares the Measured Upper-Lower Isolation Displacement Peak.
@@ -30,19 +30,19 @@ The peak value in the input acceleration time history. It is one of the common i
 The peak value in the input velocity time history. For an isolation system, velocity peak is closer to displacement demand than acceleration peak because isolation displacement depends on whether the seismic wave can continuously push the isolation layer into sliding.
 
 **QSM Power Flow**  
-This article uses $P_{\mathrm{in}}(t)=a(t)v(t)$ as a proxy for input-side power-potential flow per unit mass. It is not the conventional total power. It combines the motion-changing capability represented by acceleration and the pushing / transmission direction represented by velocity into a power-flow indicator.
+This article uses $P_{\mathrm{in}}(t)=a(t)v(t)$ as a proxy for input-side power flow per unit mass. It is not the conventional total power. It combines the motion-changing capability represented by acceleration and the pushing / transmission direction represented by velocity into a power-flow indicator.
 
 **Input-Side QSM Power Flow**  
 The QSM Power Flow formed by the input-side $a(t)$ and $v(t)$ of the seismic record. It describes the power-flow state that has already formed at the input side before the seismic wave enters the isolation system.
 
 **Input-Side QSM Power Peak**  
-The peak value in the Input-Side QSM Power Flow time history. It is used to observe whether the seismic input forms a clear instantaneous power-potential impact.
+The peak value in the Input-Side QSM Power Flow time history. It is used to observe whether the seismic input forms a clear instantaneous power impact.
 
 **Power Packet**  
-A concentrated QSM Power Flow within a short time window. This article uses a one-second window to observe whether the power-potential concentrates into an event capable of pushing the isolation layer. In later sections, 1s Power Packet refers to this one-second power-potential packet.
+A concentrated QSM Power Flow within a short time window. This article uses a one-second window to observe whether the power concentrates into an event capable of pushing the isolation layer. In later sections, 1s Power Packet refers to this one-second power packet.
 
 **Interface Power / Work Exchange**  
-The quantity $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ at the isolation interface and its time integral. It describes the exchange and work done after the input power-potential actually enters the isolation interface. In later sections, Interface Power, Interface Work, and Interface Power/Work Packet all refer to this interface-level power and work response.
+The quantity $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ at the isolation interface and its time integral. It describes the exchange and work done after the input power actually enters the isolation interface. In later sections, Interface Power, Interface Work, and Interface Power/Work Packet all refer to this interface-level power and work response.
 
 **Measured Interface Power/Work Packet**  
 The short-time interface power / work exchange obtained from measured interface data. The cross-case-group summary shows that this quantity has the clearest relationship with the Measured Upper-Lower Isolation Displacement Peak.
@@ -60,10 +60,10 @@ The frequency scale corresponding to the Effective Isolation Period $T_{\mathrm{
 A frequency family extended from $f_{\mathrm{eff}}$ , including $0.5f_{\mathrm{eff}}$ , $f_{\mathrm{eff}}$ , $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ . This article treats it as an entry-frequency family of the isolation system, not as one unique control frequency.
 
 **QSM Power Frequency Group**  
-A set of main frequencies obtained by applying frequency analysis to the Input-Side QSM Power Flow. It is used to observe that the seismic power-potential does not enter the system through one frequency only, but through a set of frequency components that contact the isolation system.
+A set of main frequencies obtained by applying frequency analysis to the Input-Side QSM Power Flow. It is used to observe that the seismic power does not enter the system through one frequency only, but through a set of frequency components that contact the isolation system.
 
 **Interface Frequency Group**  
-A set of main frequencies obtained by applying frequency analysis to the Interface Power / Work Exchange. It is used to observe which frequency components are retained, converted, or amplified after the input power-potential enters the isolation interface.
+A set of main frequencies obtained by applying frequency analysis to the Interface Power / Work Exchange. It is used to observe which frequency components are retained, converted, or amplified after the input power enters the isolation interface.
 
 **Displacement Response Frequency Group**  
 The main frequency group of the isolation displacement response $u_{\mathrm{iso}}(t)$ . This article pays special attention to whether the displacement response frequencies in high-displacement cases are close to $f_{\mathrm{eff}}$ and its harmonic sequence.
@@ -78,19 +78,19 @@ The frequency-group relation map shown in the summary figure and in each Case Gr
 The ten-panel diagnostic figure drawn for each individual ground-motion record. It presents acceleration, velocity, QSM Power Flow, Power Packet, Interface Power / Work Exchange, Isolation Displacement, and Frequency-Group Closure. When this article later refers to the J panel, it means the last panel in the Diagnosis Figure, where the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group are compared.
 
 **Frequency-Group Closure**  
-The comparison panel in the individual Diagnosis Figure that compares the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group. Its point is not only whether the three frequency groups are close to each other, but whether the displacement response forms an orderly sequence close to $f_{\mathrm{eff}}$ and its harmonics. If such a sequence appears in a high-displacement case, it means the isolation system is not receiving power-potential only from one effective frequency, but is being driven through a family of effective-frequency entries.
+The comparison panel in the individual Diagnosis Figure that compares the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group. Its point is not only whether the three frequency groups are close to each other, but whether the displacement response forms an orderly sequence close to $f_{\mathrm{eff}}$ and its harmonics. If such a sequence appears in a high-displacement case, it means the isolation system is not receiving power only from one effective frequency, but is being driven through a family of effective-frequency entries.
 
 **Lag**  
 The time difference between two event peaks, such as the lag between the QSM Power Packet peak and the isolation displacement peak. This article uses it to judge whether the power event and the displacement event are close in time.
 
 **QSM Power Shock**  
-A sharp instantaneous power-potential peak in the QSM Power Flow time history. It can indicate a strong short-time power-potential impact in the seismic input, but this article does not treat it as the only criterion.
+A sharp instantaneous power peak in the QSM Power Flow time history. It can indicate a strong short-time power impact in the seismic input, but this article does not treat it as the only criterion.
 
 **Input Motion**  
-The acceleration, velocity, and power-potential time histories at the seismic input side. The conclusion uses this term to summarize the motion-data layer of the seismic input.
+The acceleration, velocity, and power time histories at the seismic input side. The conclusion uses this term to summarize the motion-data layer of the seismic input.
 
 **Frequency-Group Manifestation**  
-The phenomenon in which power-potential, after conversion through the input side and the interface, appears as an identifiable sequence in the Displacement Response Frequency Group.
+The phenomenon in which power, after conversion through the input side and the interface, appears as an identifiable sequence in the Displacement Response Frequency Group.
 
 **Figure Label Convention**  
 The main text uses English terms because the output figures also use English labels. Terms such as QSM Power Flow, Power Packet, Interface Power / Work Exchange, QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group are retained after being defined so that the text, figures, and future journal version can remain consistent.
@@ -113,7 +113,7 @@ This path is divided into five steps:
 4. Observe whether the Power Packet enters the isolation interface and forms $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ and interface work.
 5. Expand QSM Power Flow into Frequency Groups and observe their contact, conversion, and displacement manifestation with the Effective Isolation Frequency family.
 
-Together, these five steps form the QSM power-potential viewpoint transformation used in this article.
+Together, these five steps form the QSM power viewpoint transformation used in this article.
 
 ---
 
@@ -139,9 +139,9 @@ Input Acceleration Peak
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig02_qsm_power_frequency_group_contact_combined.png)
 
-The cross-case-group Figure 2 answers the second question: after the input earthquake is converted into QSM Power Flow, how does it unfold in the frequency domain? This figure should be read as a Frequency-Group Contact Map. Each ground-motion record has a set of QSM Power frequency peaks. The same record appears on the figure as multiple points at approximately the same displacement level. The relative relationship between these points and $0.5f_{\mathrm{eff}}$ , $f_{\mathrm{eff}}$ , $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ provides clues about how the power-potential contacts the entry-frequency family of the isolation system. More importantly, the J panel in each individual Diagnosis Figure further shows that the Displacement Response Frequency in many high-displacement cases is not randomly scattered, but is close to the system effective frequency and its harmonic sequence. This allows $f_{\mathrm{eff}}$ to be re-understood as a reference scale for a family of power-potential entries, rather than as a single design parameter.
+The cross-case-group Figure 2 answers the second question: after the input earthquake is converted into QSM Power Flow, how does it unfold in the frequency domain? This figure should be read as a Frequency-Group Contact Map. Each ground-motion record has a set of QSM Power frequency peaks. The same record appears on the figure as multiple points at approximately the same displacement level. The relative relationship between these points and $0.5f_{\mathrm{eff}}$ , $f_{\mathrm{eff}}$ , $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ provides clues about how the power contacts the entry-frequency family of the isolation system. More importantly, the J panel in each individual Diagnosis Figure further shows that the Displacement Response Frequency in many high-displacement cases is not randomly scattered, but is close to the system effective frequency and its harmonic sequence. This allows $f_{\mathrm{eff}}$ to be re-understood as a reference scale for a family of power entries, rather than as a single design parameter.
 
-The analysis of each Case Group preserves group differences instead of mixing all records into one behavior. Short-period pulse, medium-period pulse, non-pulse, and spectrally matched records can all be read through the same QSM framework, but their modes of power-potential entry, interface conversion, and displacement manifestation are not the same. Therefore, in each group-level analysis, this article reads two types of figures together: one is the group-level correlation figure, used to observe the relation among acceleration, velocity, power-potential, work, and displacement; the other is the group-level Frequency-Group Contact Map, used to observe how the power-potential frequencies of that group contact the Effective Isolation Frequency family. The individual Diagnosis Figure then returns to the time series itself and checks whether the event actually exists in the waveform. In that Diagnosis Figure, the J panel is the key panel for reading frequency manifestation: circles represent the QSM Power Frequency Group, squares represent the Interface Frequency Group, and triangles represent the Displacement Response Frequency Group. When the displacement frequencies in high-displacement cases show an orderly sequence close to $f_{\mathrm{eff}}$ , $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , or their lower-order components, the displacement is not a random oscillation; it is a manifestation of the isolation system’s effective-frequency family being driven by the power-potential field.
+The analysis of each Case Group preserves group differences instead of mixing all records into one behavior. Short-period pulse, medium-period pulse, non-pulse, and spectrally matched records can all be read through the same QSM framework, but their modes of power entry, interface conversion, and displacement manifestation are not the same. Therefore, in each group-level analysis, this article reads two types of figures together: one is the group-level correlation figure, used to observe the relation among acceleration, velocity, power, work, and displacement; the other is the group-level Frequency-Group Contact Map, used to observe how the power frequencies of that group contact the Effective Isolation Frequency family. The individual Diagnosis Figure then returns to the time series itself and checks whether the event actually exists in the waveform. In that Diagnosis Figure, the J panel is the key panel for reading frequency manifestation: circles represent the QSM Power Frequency Group, squares represent the Interface Frequency Group, and triangles represent the Displacement Response Frequency Group. When the displacement frequencies in high-displacement cases show an orderly sequence close to $f_{\mathrm{eff}}$ , $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , or their lower-order components, the displacement is not a random oscillation; it is a manifestation of the isolation system’s effective-frequency family being driven by the power field.
 
 ---
 
@@ -177,7 +177,7 @@ These two quantities are not the strongest by themselves, but they complete an i
 - Measured Interface Power/Work Packet: Pearson r ≈ 0.729, Spearman ρ ≈ 0.810
 - Accumulated Interface Work: Pearson r ≈ 0.595, Spearman ρ ≈ 0.698
 
-This is the most important overall evidence in the article. It shows that isolation displacement is not determined only by input acceleration or velocity. The relationship with displacement becomes clearer after the input power-potential enters the isolation interface and forms actual Interface Power / Work Exchange.
+This is the most important overall evidence in the article. It shows that isolation displacement is not determined only by input acceleration or velocity. The relationship with displacement becomes clearer after the input power enters the isolation interface and forms actual Interface Power / Work Exchange.
 
 In other words, the input seismic wave must pass through three layers of conversion:
 
@@ -188,7 +188,7 @@ a(t),v(t)
 \rightarrow u_{\mathrm{iso}}(t)
 $$
 
-This is the first QSM conclusion drawn from the original experimental data: isolation displacement is the manifestation of power-potential after it passes through the interface, rather than a direct mapping from input acceleration.
+This is the first QSM conclusion drawn from the original experimental data: isolation displacement is the manifestation of power after it passes through the interface, rather than a direct mapping from input acceleration.
 
 ---
 
@@ -217,11 +217,11 @@ The greatest value of Group1 is that it is not only strong in correlation; it is
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/Group1_Fig02_qsm_power_frequency_group_contact_combined.png)
 
-Group1 Figure 2 is important for understanding the short-period pulse group. It shows that the high-displacement cases in Group1 are not concentrated at one single frequency point. Instead, they form multiple contacts near the Effective Isolation Frequency family and its harmonic bands. The upper panel preserves the full QSM Power Frequency Group, showing that the same record expands into multiple frequency points at a fixed IsoDisp level. The lower panel zooms into the region near $0.5f_{\mathrm{eff}}$ , $f_{\mathrm{eff}}$ , $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ . The point of this figure is not to claim that one harmonic alone controls displacement. It shows that a short-period pulse pushes power-potential into a group of frequency entries, which the isolation system then converts into a lower-frequency displacement response.
+Group1 Figure 2 is important for understanding the short-period pulse group. It shows that the high-displacement cases in Group1 are not concentrated at one single frequency point. Instead, they form multiple contacts near the Effective Isolation Frequency family and its harmonic bands. The upper panel preserves the full QSM Power Frequency Group, showing that the same record expands into multiple frequency points at a fixed IsoDisp level. The lower panel zooms into the region near $0.5f_{\mathrm{eff}}$ , $f_{\mathrm{eff}}$ , $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ . The point of this figure is not to claim that one harmonic alone controls displacement. It shows that a short-period pulse pushes power into a group of frequency entries, which the isolation system then converts into a lower-frequency displacement response.
 
 In the figure, RSN1013 and RSN4847 form the high-displacement rows of Group1, and their QSM Power frequency points contact regions close to $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ at the same time. This means that a short-period pulse, although short in time, is not thin in the power-frequency domain. It enters the system through a Frequency Group. Medium- and low-displacement cases such as RSN148, RSN4102, and RSN4100 also show frequency-group contact, but their displacement levels are lower. This means that frequency contact alone is not a sufficient condition. It still must be read together with Power Packet intensity, interface work exchange, and time synchronization.
 
-Therefore, Group1 Figure 2 should be read after Group1 Figure 1. Figure 1 shows that Group1 displacement is closer to V, QSM Power Packet, and Interface Work. Figure 2 adds the frequency-layer explanation: these power-potential inputs do not enter the isolation layer through one effective frequency only, but form contact through the Effective Isolation Frequency family and harmonic entries. This is exactly what QSM emphasizes: $f_{\mathrm{eff}}$ is not the endpoint; it is the entry coordinate for power-potential entering the isolation system.
+Therefore, Group1 Figure 2 should be read after Group1 Figure 1. Figure 1 shows that Group1 displacement is closer to V, QSM Power Packet, and Interface Work. Figure 2 adds the frequency-layer explanation: these power inputs do not enter the isolation layer through one effective frequency only, but form contact through the Effective Isolation Frequency family and harmonic entries. This is exactly what QSM emphasizes: $f_{\mathrm{eff}}$ is not the endpoint; it is the entry coordinate for power entering the isolation system.
 
 ## Representative Cases in Group1
 
@@ -243,7 +243,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.250;1.749;2.749;3.873 Hz
 - Displacement Response Frequency Group: 0.250;0.625 Hz
 
-This record is a low-displacement response. Its value is that it provides a low-response reference case. It shows that frequency-group contact alone is not sufficient; power-potential magnitude, interface work exchange, and displacement frequency manifestation must all work together to form large displacement.
+This record is a low-displacement response. Its value is that it provides a low-response reference case. It shows that frequency-group contact alone is not sufficient; power magnitude, interface work exchange, and displacement frequency manifestation must all work together to form large displacement.
 
 ### RSN1013: Medium-Displacement Case
 
@@ -283,7 +283,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 2.280;1.866 Hz
 - Displacement Response Frequency Group: 1.033;0.620 Hz
 
-This record is a low-displacement response. Its value is that it provides a low-response reference case. It shows that frequency-group contact alone is not sufficient; power-potential magnitude, interface work exchange, and displacement frequency manifestation must all work together to form large displacement.
+This record is a low-displacement response. Its value is that it provides a low-response reference case. It shows that frequency-group contact alone is not sufficient; power magnitude, interface work exchange, and displacement frequency manifestation must all work together to form large displacement.
 
 ## Group1 Summary
 
@@ -293,7 +293,7 @@ Group1 shows that, under short-period pulse input, acceleration is not the main 
 
 # 5. Group2: Power Packets and Large Displacement Amplification in Medium-Period Pulse Cases
 
-Group2 is the medium-period pulse group. It is also the most suitable group for showing the path of “velocity pulse → Power Packet → Interface Exchange → large displacement.” The original paper states that medium $T_p$ pulse-like ground motions produce larger isolation displacement. QSM analysis adds a more mechanism-based explanation: medium-period velocity pulses are more likely to organize the input power-potential into an effective Power Packet and form strong work exchange at the interface.
+Group2 is the medium-period pulse group. It is also the most suitable group for showing the path of “velocity pulse → Power Packet → Interface Exchange → large displacement.” The original paper states that medium $T_p$ pulse-like ground motions produce larger isolation displacement. QSM analysis adds a more mechanism-based explanation: medium-period velocity pulses are more likely to organize the input power into an effective Power Packet and form strong work exchange at the interface.
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/Group2_Fig01_core_power_viewpoint_transformation.png)
 
@@ -321,15 +321,15 @@ By comparison, Accumulated Interface Work is:
 
 - Accumulated Interface Work: Pearson r ≈ 0.539, Spearman ρ ≈ 0.527
 
-This difference is important. It means that the large displacement in Group2 is not determined only by total energy accumulation. It is more closely related to the Interface Power/Work Packet within an effective time window. In other words, whether the power-potential concentrates and enters the isolation interface is closer to the formation of displacement peak than the final total accumulated work.
+This difference is important. It means that the large displacement in Group2 is not determined only by total energy accumulation. It is more closely related to the Interface Power/Work Packet within an effective time window. In other words, whether the power concentrates and enters the isolation interface is closer to the formation of displacement peak than the final total accumulated work.
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/Group2_Fig02_qsm_power_frequency_group_contact_combined.png)
 
-Group2 Figure 2 shows the core feature of the medium-period pulse group: the overall displacement level is much higher than Group1, and many high-displacement records still preserve QSM Power Frequency Group contact near $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ . This differs from Group1. Group1 is closer to a short-time power event; Group2 shows a longer-period velocity pulse continuously pushing power-potential into the isolation system, forming larger interface work and larger displacement manifestation.
+Group2 Figure 2 shows the core feature of the medium-period pulse group: the overall displacement level is much higher than Group1, and many high-displacement records still preserve QSM Power Frequency Group contact near $2f_{\mathrm{eff}}$ , $3f_{\mathrm{eff}}$ , and $4f_{\mathrm{eff}}$ . This differs from Group1. Group1 is closer to a short-time power event; Group2 shows a longer-period velocity pulse continuously pushing power into the isolation system, forming larger interface work and larger displacement manifestation.
 
-RSN170 is the most prominent high-displacement case in the figure. It maintains high IsoDisp levels across multiple QSM Power frequency peaks, which means the large displacement is not produced by one single frequency point but by a group of power-potential frequencies acting together. RSN1165, RSN802, and RSN983 also fall in the medium- to high-displacement range. This shows that the risk of medium-period pulses is not only that the velocity peak is high, but that their power-frequency groups are more likely to form effective contact with the entry-frequency family of the isolation system.
+RSN170 is the most prominent high-displacement case in the figure. It maintains high IsoDisp levels across multiple QSM Power frequency peaks, which means the large displacement is not produced by one single frequency point but by a group of power frequencies acting together. RSN1165, RSN802, and RSN983 also fall in the medium- to high-displacement range. This shows that the risk of medium-period pulses is not only that the velocity peak is high, but that their power-frequency groups are more likely to form effective contact with the entry-frequency family of the isolation system.
 
-By contrast, low-displacement cases such as RSN3317, RSN8130, and RSN1085 also show frequency points, but their horizontal displacement levels are much lower. This means Group2 cannot be read only by asking whether there is contact with $f_{\mathrm{eff}}$ or a harmonic. It must also ask whether sufficient Power Packet and Interface Work Packet are formed after the contact. In this sense, the function of Group2 Figure 2 is to move the statement “medium-period pulses cause large displacement” from a simple period description toward a description of how the power-potential Frequency Group enters the isolation interface.
+By contrast, low-displacement cases such as RSN3317, RSN8130, and RSN1085 also show frequency points, but their horizontal displacement levels are much lower. This means Group2 cannot be read only by asking whether there is contact with $f_{\mathrm{eff}}$ or a harmonic. It must also ask whether sufficient Power Packet and Interface Work Packet are formed after the contact. In this sense, the function of Group2 Figure 2 is to move the statement “medium-period pulses cause large displacement” from a simple period description toward a description of how the power Frequency Group enters the isolation interface.
 
 ## Representative Cases in Group2
 
@@ -351,7 +351,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.500;1.499;1.000;2.249 Hz
 - Displacement Response Frequency Group: 0.125;0.250;0.375;0.500 Hz
 
-The key point of this record is that it shows both a large displacement response and clear interface work exchange. In the J panel, the Displacement Response Frequency Group is not randomly scattered. It is concentrated in a low-frequency sequence and forms a readable relationship with the Effective Isolation Frequency family. Therefore, RSN170 is a representative case of power-potential entering the interface and manifesting as large displacement.
+The key point of this record is that it shows both a large displacement response and clear interface work exchange. In the J panel, the Displacement Response Frequency Group is not randomly scattered. It is concentrated in a low-frequency sequence and forms a readable relationship with the Effective Isolation Frequency family. Therefore, RSN170 is a representative case of power entering the interface and manifesting as large displacement.
 
 ### RSN983: Medium-High-Displacement Case
 
@@ -371,7 +371,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.755;1.699;3.210;2.266;2.832;3.587 Hz
 - Displacement Response Frequency Group: 0.326 Hz
 
-This record shows that medium-high displacement is not necessarily determined by a single instantaneous peak. Power Packet, Measured Interface Power/Work Packet, and frequency-group conversion must be read together. It is useful as a middle-layer case for showing that the relation among power-potential intensity, interface exchange, and displacement manifestation is not a single linear relation.
+This record shows that medium-high displacement is not necessarily determined by a single instantaneous peak. Power Packet, Measured Interface Power/Work Packet, and frequency-group conversion must be read together. It is useful as a middle-layer case for showing that the relation among power intensity, interface exchange, and displacement manifestation is not a single linear relation.
 
 ### RSN8130: Medium-Displacement Case
 
@@ -399,9 +399,9 @@ Group2 provides the clearest medium-period pulse evidence for QSM Power Flow. It
 
 ---
 
-# 6. Group3: Distributed Power-Potential Field and Low-Frequency Displacement Manifestation in Non-Pulse Cases
+# 6. Group3: Distributed power Field and Low-Frequency Displacement Manifestation in Non-Pulse Cases
 
-Group3 is the non-pulse-like group. In a conventional reading, it is easy to treat this group as a control group against pulse-like records. QSM analysis shows that Group3 should not be understood only as “without pulse.” It is closer to a distributed power-potential field: the power-potential does not enter the system through one clear velocity pulse, but through a longer-duration, wider-band, and more distributed way. It can still enter the isolation interface and manifest as large displacement.
+Group3 is the non-pulse-like group. In a conventional reading, it is easy to treat this group as a control group against pulse-like records. QSM analysis shows that Group3 should not be understood only as “without pulse.” It is closer to a distributed power field: the power does not enter the system through one clear velocity pulse, but through a longer-duration, wider-band, and more distributed way. It can still enter the isolation interface and manifest as large displacement.
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/Group3_Fig01_core_power_viewpoint_transformation.png)
 
@@ -421,7 +421,7 @@ The Input-Side 1s QSM Power Packet is:
 
 - Input-Side 1s QSM Power Packet: Pearson r ≈ 0.387, Spearman ρ ≈ 0.733
 
-This means the Power indicators in Group3 do not necessarily produce a clean linear proportion, but they can distinguish displacement levels. This is different from Group2. Group2 is closer to a medium-period pulse directly forming a strong packet; Group3 is closer to distributed power-potential being reorganized through Frequency Groups and the interface.
+This means the Power indicators in Group3 do not necessarily produce a clean linear proportion, but they can distinguish displacement levels. This is different from Group2. Group2 is closer to a medium-period pulse directly forming a strong packet; Group3 is closer to distributed power being reorganized through Frequency Groups and the interface.
 
 The interface-side Interface Power/Work Packet is:
 
@@ -431,17 +431,17 @@ The interface-side Accumulated Interface Work is:
 
 - Accumulated Interface Work: Pearson r ≈ 0.533, Spearman ρ ≈ 0.576
 
-These relationships are not as strong as Group2, but they are reasonable. For non-pulse input, the power-potential is not concentrated in one short time window; it enters the system in a more distributed way. Therefore, Group3 analysis cannot focus only on one peak or one packet. It must read Input-Side Power, Interface Exchange, Frequency Group, and displacement response together.
+These relationships are not as strong as Group2, but they are reasonable. For non-pulse input, the power is not concentrated in one short time window; it enters the system in a more distributed way. Therefore, Group3 analysis cannot focus only on one peak or one packet. It must read Input-Side Power, Interface Exchange, Frequency Group, and displacement response together.
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/Group3_Fig02_qsm_power_frequency_group_contact_combined.png)
 
-Group3 Figure 2 is one of the most easily underestimated and important group-level frequency maps in this article. Because Group3 is classified as non-pulse-like in the original study, it is easy to read it as “without a clear pulse, and therefore less dangerous.” This figure shows that non-pulse does not mean there is no power-potential field. It means the power-potential does not enter through one clear velocity pulse, but through a more distributed, wider-band, and longer-duration form.
+Group3 Figure 2 is one of the most easily underestimated and important group-level frequency maps in this article. Because Group3 is classified as non-pulse-like in the original study, it is easy to read it as “without a clear pulse, and therefore less dangerous.” This figure shows that non-pulse does not mean there is no power field. It means the power does not enter through one clear velocity pulse, but through a more distributed, wider-band, and longer-duration form.
 
-In the figure, RSN1164FP and RSN1233FN form very high displacement levels. Their QSM Power Frequency Groups do not only stay near $f_{\mathrm{eff}}$ , but extend into a wider frequency range. This shows that non-pulse ground motions can still interact with the isolation system through a broadband power-potential field and finally manifest as extremely large displacement. This point is important: if the reading is limited to pulse / non-pulse classification, RSN1164FP may look like a control case. Under the QSM reading, it becomes strong evidence that a distributed power-potential field can produce large displacement.
+In the figure, RSN1164FP and RSN1233FN form very high displacement levels. Their QSM Power Frequency Groups do not only stay near $f_{\mathrm{eff}}$ , but extend into a wider frequency range. This shows that non-pulse ground motions can still interact with the isolation system through a broadband power field and finally manifest as extremely large displacement. This point is important: if the reading is limited to pulse / non-pulse classification, RSN1164FP may look like a control case. Under the QSM reading, it becomes strong evidence that a distributed power field can produce large displacement.
 
-Group3 Figure 2 also shows that most medium- and low-displacement cases have dense contact near 0.5–1.5 Hz while also extending above 2 Hz. This means the displacement of the non-pulse group is not controlled by one clean frequency line. It is jointly determined by the distribution of the power-potential field across multiple frequency entries, interface selection, and low-frequency displacement manifestation. Therefore, Group3 must be read more carefully than Group1 and Group2: it cannot be read only by peak, and it cannot be read only by a one-second packet. Frequency Group and Interface Exchange must be read together.
+Group3 Figure 2 also shows that most medium- and low-displacement cases have dense contact near 0.5–1.5 Hz while also extending above 2 Hz. This means the displacement of the non-pulse group is not controlled by one clean frequency line. It is jointly determined by the distribution of the power field across multiple frequency entries, interface selection, and low-frequency displacement manifestation. Therefore, Group3 must be read more carefully than Group1 and Group2: it cannot be read only by peak, and it cannot be read only by a one-second packet. Frequency Group and Interface Exchange must be read together.
 
-This figure supports one important inference of the article: what an isolation system faces is not merely whether a given record has a pulse. The deeper issue is whether that seismic wave forms a power-potential field capable of entering the system, passing through the interface, and finally driving displacement.
+This figure supports one important inference of the article: what an isolation system faces is not merely whether a given record has a pulse. The deeper issue is whether that seismic wave forms a power field capable of entering the system, passing through the interface, and finally driving displacement.
 
 ## Representative Cases in Group3
 
@@ -463,7 +463,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.250;1.499;2.249;1.999 Hz
 - Displacement Response Frequency Group: 0.125;0.250;0.375;0.500;0.625 Hz
 
-This record shows that medium-high displacement is not necessarily determined by a single instantaneous peak. Power Packet, Measured Interface Power/Work Packet, and frequency-group conversion must be read together. It is useful as a middle-layer case for showing that the relation among power-potential intensity, interface exchange, and displacement manifestation is not a single linear relation.
+This record shows that medium-high displacement is not necessarily determined by a single instantaneous peak. Power Packet, Measured Interface Power/Work Packet, and frequency-group conversion must be read together. It is useful as a middle-layer case for showing that the relation among power intensity, interface exchange, and displacement manifestation is not a single linear relation.
 
 ### RSN878FN: Medium-Displacement Case
 
@@ -503,15 +503,15 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.250;0.875;1.249;0.625;2.749;1.749;1.999;2.499 Hz
 - Displacement Response Frequency Group: 0.125;0.250;0.375;0.500 Hz
 
-The key point of this record is that it shows both a large displacement response and clear interface work exchange. In the J panel, the Displacement Response Frequency Group is not randomly scattered. It is concentrated in a low-frequency sequence and forms a readable relationship with the Effective Isolation Frequency family. Therefore, RSN1164FP is a representative case of power-potential entering the interface and manifesting as large displacement.
+The key point of this record is that it shows both a large displacement response and clear interface work exchange. In the J panel, the Displacement Response Frequency Group is not randomly scattered. It is concentrated in a low-frequency sequence and forms a readable relationship with the Effective Isolation Frequency family. Therefore, RSN1164FP is a representative case of power entering the interface and manifesting as large displacement.
 
 ## Group3 Summary
 
-The significance of Group3 is that it extends QSM from pulse cases to non-pulse power-potential fields. Non-pulse ground motions are not without power-potential; the power-potential enters the system in a distributed field form. When these distributed Frequency Groups are converted through the interface into the low-frequency displacement response of the isolation system, they may still produce extremely large displacement.
+The significance of Group3 is that it extends QSM from pulse cases to non-pulse power fields. Non-pulse ground motions are not without power; the power enters the system in a distributed field form. When these distributed Frequency Groups are converted through the interface into the low-frequency displacement response of the isolation system, they may still produce extremely large displacement.
 
 ---
 
-# 7. Group4: Power-Potential Differences in Spectrally Matched Cases
+# 7. Group4: power Differences in Spectrally Matched Cases
 
 Group4 is the Spectrally Matched Group. It is important for this article because it directly touches a core issue in engineering design: if ground motions have already been adjusted to be similar in the response-spectrum coordinate, should their actual isolation displacement also be similar?
 
@@ -546,11 +546,11 @@ The Measured Interface Power/Work Packet is closer to IsoDisp Peak than accelera
 
 Group4 Figure 2 is the most direct supplementary evidence for spectral matching in this article. These records have been matched in response-spectrum terms, so a conventional reading may expect them to have closer response demands. However, the Frequency-Group Contact Map shows that even after the response spectra are organized, the QSM Power Frequency Group still retains clear differences.
 
-In the figure, RSN802M forms the highest displacement row. RSN803M and RSN1085M are also in the high-displacement layer, while cases such as RSN8130M have lower displacement. These differences cannot be explained by the Input Acceleration Peak in Figure 1 alone, and they do not automatically disappear after spectral matching. Group4 Figure 2 shows that spectrally matched records still have different contact densities and power-potential distributions near $f_{\mathrm{eff}}$ and its harmonics. Some records can effectively bring the QSM Power Frequency Group into the isolation system, while others cannot.
+In the figure, RSN802M forms the highest displacement row. RSN803M and RSN1085M are also in the high-displacement layer, while cases such as RSN8130M have lower displacement. These differences cannot be explained by the Input Acceleration Peak in Figure 1 alone, and they do not automatically disappear after spectral matching. Group4 Figure 2 shows that spectrally matched records still have different contact densities and power distributions near $f_{\mathrm{eff}}$ and its harmonics. Some records can effectively bring the QSM Power Frequency Group into the isolation system, while others cannot.
 
-The meaning of this figure is not that spectral matching has no value. It means spectral matching controls the appearance of the response spectrum, but it does not guarantee control of the power-potential path. For an isolation system, the next questions should be: after matching, does the ground motion still form a Power Packet within the time window? Does it form work exchange at the interface? Does it contact the Effective Isolation Frequency family in the frequency-group domain? Does it finally convert into low-frequency displacement manifestation?
+The meaning of this figure is not that spectral matching has no value. It means spectral matching controls the appearance of the response spectrum, but it does not guarantee control of the power path. For an isolation system, the next questions should be: after matching, does the ground motion still form a Power Packet within the time window? Does it form work exchange at the interface? Does it contact the Effective Isolation Frequency family in the frequency-group domain? Does it finally convert into low-frequency displacement manifestation?
 
-Therefore, Group4 Figure 2 should be read as a reminder for engineering design language: similar response spectra do not necessarily mean similar power-potential; similar Frequency Groups do not necessarily mean similar interface work. Isolation displacement must be read from the actual path through which power-potential passes through the interface.
+Therefore, Group4 Figure 2 should be read as a reminder for engineering design language: similar response spectra do not necessarily mean similar power; similar Frequency Groups do not necessarily mean similar interface work. Isolation displacement must be read from the actual path through which power passes through the interface.
 
 ## Representative Cases in Group4
 
@@ -572,7 +572,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.375;1.499 Hz
 - Displacement Response Frequency Group: 0.125;0.250;0.375 Hz
 
-This record shows that medium-high displacement is not necessarily determined by a single instantaneous peak. Power Packet, Measured Interface Power/Work Packet, and frequency-group conversion must be read together. It is useful as a middle-layer case for showing that the relation among power-potential intensity, interface exchange, and displacement manifestation is not a single linear relation.
+This record shows that medium-high displacement is not necessarily determined by a single instantaneous peak. Power Packet, Measured Interface Power/Work Packet, and frequency-group conversion must be read together. It is useful as a middle-layer case for showing that the relation among power intensity, interface exchange, and displacement manifestation is not a single linear relation.
 
 ### RSN802M: High-Displacement Spectrally Matched Case
 
@@ -592,7 +592,7 @@ Its Frequency-Group Closure comparison is:
 - Interface Frequency Group: 0.250;0.750 Hz
 - Displacement Response Frequency Group: 0.125;0.250 Hz
 
-The key point of this record is that it shows both a large displacement response and clear interface work exchange. In the J panel, the Displacement Response Frequency Group is not randomly scattered. It is concentrated in a low-frequency sequence and forms a readable relationship with the Effective Isolation Frequency family. Therefore, RSN802M is a representative case of power-potential entering the interface and manifesting as large displacement.
+The key point of this record is that it shows both a large displacement response and clear interface work exchange. In the J panel, the Displacement Response Frequency Group is not randomly scattered. It is concentrated in a low-frequency sequence and forms a readable relationship with the Effective Isolation Frequency family. Therefore, RSN802M is a representative case of power entering the interface and manifesting as large displacement.
 
 ### RSN8130M: Medium-Displacement Spectrally Matched Case
 
@@ -616,31 +616,31 @@ This record is a medium-displacement response. Its value is that it provides a c
 
 ## Group4 Summary
 
-The core contribution of Group4 is that it identifies a blind spot of spectral matching: it aligns the response spectrum, but it does not necessarily align the power-potential channel. It controls the appearance of the input in the design spectrum, but what the structure actually receives is the time packet, velocity push, Power Flow, interface work, and Frequency-Group Contact. This is why the spectrally matched group still shows clear displacement differences.
+The core contribution of Group4 is that it identifies a blind spot of spectral matching: it aligns the response spectrum, but it does not necessarily align the power channel. It controls the appearance of the input in the design spectrum, but what the structure actually receives is the time packet, velocity push, Power Flow, interface work, and Frequency-Group Contact. This is why the spectrally matched group still shows clear displacement differences.
 
 ---
 
-# 8. Conclusion: Seismic Waves as Power-Potential Fields and Isolation Displacement as Interface Manifestation
+# 8. Conclusion: Seismic Waves as power Fields and Isolation Displacement as Interface Manifestation
 
 This article uses real experimental data from a spherical sliding isolation system to conduct the first empirical validation of Quantum Structural Mechanics. This work follows the most important finding of the original study: acceleration alone, or average spectral acceleration alone, cannot sufficiently explain isolation displacement. This article moves forward from that empirical result and attempts to explain how seismic waves pass through velocity, power flow, interface work, and Frequency Groups before manifesting as isolation displacement.
 
 The first conclusion is that the original data do support the statement that acceleration alone is insufficient. The summary figure across Case Groups Group1–4 shows that the Input Acceleration Peak has an extremely low relationship with the Measured IsoDisp Peak. When the analysis moves to Input Velocity Peak, the relationship becomes much clearer. This indicates that isolation displacement is related to velocity pulse, pushing capacity, and time duration. For an isolation system, a seismic wave must push the isolation layer into sliding over a period of time; a single acceleration peak cannot fully describe this process.
 
-The second conclusion is that the QSM viewpoint transformation is reasonable from the data. This article combines $a(t)$ and $v(t)$ into $P_{\mathrm{in}}(t)=a(t)v(t)$ to describe the Input-Side QSM Power Flow. This transformation moves the seismic input from a simple motion time history into an observable power flow. When this power flow is organized as a Power Packet and further enters the isolation interface to form $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ as Interface Power / Work Exchange, its relationship with displacement response becomes the clearest. This means the formation of isolation displacement must be read through input-side power-potential, interface exchange, and actual displacement response together.
+The second conclusion is that the QSM viewpoint transformation is reasonable from the data. This article combines $a(t)$ and $v(t)$ into $P_{\mathrm{in}}(t)=a(t)v(t)$ to describe the Input-Side QSM Power Flow. This transformation moves the seismic input from a simple motion time history into an observable power flow. When this power flow is organized as a Power Packet and further enters the isolation interface to form $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ as Interface Power / Work Exchange, its relationship with displacement response becomes the clearest. This means the formation of isolation displacement must be read through input-side power, interface exchange, and actual displacement response together.
 
-The third conclusion is that the frequency structure behind isolation displacement cannot be summarized by one effective frequency only. $f_{\mathrm{eff}}$ is important because it provides the entry scale of the isolation system. The data show that the actual response also contains continuous conversion among the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group. The Figure 2 of each Case Group provides group-level evidence: Group1 shows how short-period pulses contact the effective-frequency family as time events; Group2 shows how medium-period pulses form large displacement through stronger Power Packets and harmonic entries; Group3 shows that non-pulse ground motions can still produce large displacement through a distributed broadband power-potential field; Group4 shows that spectrally matched records still preserve different power-potential paths.
+The third conclusion is that the frequency structure behind isolation displacement cannot be summarized by one effective frequency only. $f_{\mathrm{eff}}$ is important because it provides the entry scale of the isolation system. The data show that the actual response also contains continuous conversion among the QSM Power Frequency Group, Interface Frequency Group, and Displacement Response Frequency Group. The Figure 2 of each Case Group provides group-level evidence: Group1 shows how short-period pulses contact the effective-frequency family as time events; Group2 shows how medium-period pulses form large displacement through stronger Power Packets and harmonic entries; Group3 shows that non-pulse ground motions can still produce large displacement through a distributed broadband power field; Group4 shows that spectrally matched records still preserve different power paths.
 
-The Frequency-Group Closure comparison in individual Diagnosis Figures is one of the most important validation results in this article. In many high-displacement cases, the displacement response frequencies are not randomly scattered. They form an orderly sequence near the original system effective frequency and its harmonics. This means the effective frequency of the isolation system can be understood as a family of power-potential entries. After the QSM Power Frequency Group of the seismic wave enters the system, it is selected and converted through the interface and finally manifests in the Displacement Response Frequency Group. The key point of the J panel is how the power-potential is received and converted along the effective-frequency family, forming an observable displacement response.
+The Frequency-Group Closure comparison in individual Diagnosis Figures is one of the most important validation results in this article. In many high-displacement cases, the displacement response frequencies are not randomly scattered. They form an orderly sequence near the original system effective frequency and its harmonics. This means the effective frequency of the isolation system can be understood as a family of power entries. After the QSM Power Frequency Group of the seismic wave enters the system, it is selected and converted through the interface and finally manifests in the Displacement Response Frequency Group. The key point of the J panel is how the power is received and converted along the effective-frequency family, forming an observable displacement response.
 
 Therefore, the core QSM statement of this article can be summarized as follows:
 
-> For a structure, a seismic wave is a power-potential field passing through the system. When the structure cannot convert this field into a stable energy-flow channel, the power-potential forms work exchange at the interface and manifests as isolation displacement.
+> For a structure, a seismic wave is a power field passing through the system. When the structure this field cannot be converted into a stable energy-flow channel, the power forms work exchange at the interface and manifests as isolation displacement.
 
-This is also the main contribution of this article to the original experimental data. The original study has shown that acceleration alone cannot explain isolation displacement. This article further explains that velocity, power flow, interface work, and Frequency Groups together form a more complete path for reading the data. The value of QSM Power Flow is that it moves the seismic input from Input Motion to Power Packet, then to Interface Exchange, and finally to Frequency-Group Manifestation. This path allows us to describe more clearly how seismic power-potential enters the system, passes through the interface, contacts Frequency Groups, and finally becomes displacement.
+This is also the main contribution of this article to the original experimental data. The original study has shown that acceleration alone cannot explain isolation displacement. This article further explains that velocity, power flow, interface work, and Frequency Groups together form a more complete path for reading the data. The value of QSM Power Flow is that it moves the seismic input from Input Motion to Power Packet, then to Interface Exchange, and finally to Frequency-Group Manifestation. This path allows us to describe more clearly how seismic power enters the system, passes through the interface, contacts Frequency Groups, and finally becomes displacement.
 
-For engineering application, this means that future isolation-system evaluation should not only ask how large the input earthquake is. It should also ask how the seismic power-potential enters the system. If the isolation system can guide the input power-potential into channels, diversion, or dissipation, the displacement manifestation may be reduced. If the power-potential concentrates at the interface, the isolation layer may be pushed into large displacement.
+For engineering application, this means that future isolation-system evaluation should not only ask how large the input earthquake is. It should also ask how the seismic power enters the system. If the isolation system can guide the input power into channels, diversion, or dissipation, the displacement manifestation may be reduced. If the power concentrates at the interface, the isolation layer may be pushed into large displacement.
 
-This article therefore establishes the first real-data validation basis for Quantum Structural Mechanics: seismic waves can be read as power-potential fields, and isolation displacement can be read as the manifestation of power-potential after it passes through the interface.
+This article therefore establishes the first real-data validation basis for Quantum Structural Mechanics: seismic waves can be read as power fields, and isolation displacement can be read as the manifestation of power after it passes through the interface.
 
 ---
 
@@ -648,7 +648,7 @@ This article therefore establishes the first real-data validation basis for Quan
 
 The experimental data used in this article come from the spherical sliding isolation system dataset published on Zenodo by Yang, Lin, Chang, and Huang. The corresponding research paper was published in *Earthquake Spectra* and studies the response of a spherical sliding isolation system subjected to pulse-like ground motions. The original study has shown that, for an isolation system, acceleration or average spectral acceleration alone cannot sufficiently explain the measured isolation displacement; velocity pulse, pulse period, and the effective period of the isolation system should all be included in the analysis.
 
-This article follows the data and problem awareness of that study and further introduces the viewpoint of Quantum Structural Mechanics (QSM): structural response can be read not only as a relationship between stiffness and displacement, but also as a process of energy flow, topological channeling, and interface exchange. Therefore, this article combines input acceleration and velocity into input-side power-potential flow and observes its relationship with interface work, isolation displacement, and Frequency-Group Manifestation.
+This article follows the data and problem awareness of that study and further introduces the viewpoint of Quantum Structural Mechanics (QSM): structural response can be read not only as a relationship between stiffness and displacement, but also as a process of energy flow, topological channeling, and interface exchange. Therefore, this article combines input acceleration and velocity into input-side power flow and observes its relationship with interface work, isolation displacement, and Frequency-Group Manifestation.
 
 ### References
 

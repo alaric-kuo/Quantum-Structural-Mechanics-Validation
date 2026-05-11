@@ -8,9 +8,9 @@
 
 本文沿著原研究的實證結論往前推進。第一層檢查顯示，輸入加速度峰值與隔震位移峰值的相關性很弱；第二層檢查顯示，速度峰值與隔震位移的關係明顯提高。接著，本文將加速度與速度合成為輸入端量子結構力學能勢流 (Input-Side QSM Power Flow)，即 $P_{\mathrm{in}}(t)=a(t)v(t)$ ，並進一步觀察一秒能勢波包 (1s Power Packet)、介面能勢／做功交換 (Interface Power / Work Exchange)、累積介面做功 (Accumulated Interface Work)，以及量子結構力學能勢頻率群 (QSM Power Frequency Group) 與有效隔震頻率群 (Effective Isolation Frequency Group) 的接觸關係。
 
-分析結果顯示，真正接近隔震位移反應的，不是輸入端單一加速度峰值或單一速度峰值，而是能勢進入隔震介面後形成的介面能勢／做功交換。跨案例群組 Group1–4 的總結圖顯示，量測介面做功波包 (Measured Interface Power/Work Packet) 與量測隔震位移峰值 (Measured Upper-Lower Isolation Displacement Peak) 呈現最清楚的關係。另一方面，頻率群圖譜也顯示，隔震反應不能只用一個有效頻率或有效週期概括； $f_{\mathrm{eff}}$ 是入口尺度，背後仍存在 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group的轉換關係。尤其在單筆診斷圖 (Diagnosis Figure) 的頻率群收斂比較中，高位移案例常可看到位移反應頻率貼近 $f_{\mathrm{eff}}$ 及其整齊倍頻序列。這表示有效頻率不是單一控制值，而是一組可被能勢接觸、轉換與顯化的入口頻率族。
+分析結果顯示，與隔震位移反應最接近的量，並非輸入端單一加速度峰值或單一速度峰值，而是能勢進入隔震介面後形成的介面能勢／做功交換。跨案例群組 Group1–4 的總結圖顯示，量測介面做功波包 (Measured Interface Power/Work Packet) 與量測隔震位移峰值 (Measured Upper-Lower Isolation Displacement Peak) 呈現最清楚的關係。另一方面，頻率群圖譜也顯示，隔震反應不能只用一個有效頻率或有效週期概括； $f_{\mathrm{eff}}$ 是入口尺度，背後仍存在 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group 的轉換關係。尤其在單筆診斷圖 (Diagnosis Figure) 的頻率群收斂比較中，高位移案例常可看到位移反應頻率貼近 $f_{\mathrm{eff}}$ 及其整齊倍頻序列。這表示有效頻率不是單一控制值，而是一組可被能勢接觸、轉換與顯化的入口頻率族。
 
-本文的核心結論是：地震波對隔震系統而言，可以被視為一個進入結構的能勢場。當此能勢場無法被隔震系統順利轉化為穩定通道時，它會在介面形成做功交換，並顯化為可觀測的隔震位移。這是本文對原實驗資料的 QSM 解讀，也是量子結構力學第一次以真實實驗資料建立機制性驗證的嘗試。
+本文的核心結論是：地震波對隔震系統而言，可以被視為一個通過結構系統的能勢場；當結構無法在這個能勢場中轉化為穩定的能量流動通道時，能勢會在介面形成做功交換，並顯化為可觀測的隔震位移。這是本文對原實驗資料的 QSM 解讀，也是量子結構力學第一次以真實實驗資料建立機制性驗證的嘗試。
 
 ---
 
@@ -19,7 +19,7 @@
 本文使用的結構分析觀點。它把地震波視為量子力學的波函數，並將結構視為能勢進入、傳遞、交換、耗散與顯化的系統，而不只是一個承受外力並產生位移的剛度系統。
 
 **隔震位移 (Isolation Displacement, IsoDisp)**
-本文指上部結構與下部基礎之間的相對位移，亦即隔震層實際承受與顯化出來的位移反應。本文主要比較量測隔震位移峰值 (Measured Upper-Lower Isolation displacement peak)。
+本文指上部結構與下部基礎之間的相對位移，亦即隔震層實際承受與顯化出來的位移反應。本文主要比較量測隔震位移峰值 (Measured Upper-Lower Isolation Displacement Peak)。本文所列位移數值，為本次 QSM 再分析中依公開資料一致處理之上部—下部相對位移指標；它應被閱讀為本文再分析使用的位移量，而非逐項重現原論文表格中的所有位移值。
 
 **輸入加速度峰值 (Input Acceleration Peak)**
 指地震輸入端加速度歷時中的峰值。它是傳統地震工程常用的輸入強度描述之一，但本文分析顯示，單看此一數值不足以解釋隔震位移。
@@ -28,7 +28,7 @@
 指地震輸入端速度歷時中的峰值。對隔震系統而言，速度峰值比加速度峰值更接近位移需求，因為隔震位移與地震波能否持續推動隔震層滑移有關。
 
 **量子結構力學能勢流 (QSM Power Flow)**
-本文使用 $P_{\mathrm{in}}(t)=a(t)v(t)$ 作為輸入端單位質量能勢流的代理量。它不是傳統總功率，而是把加速度代表的運動改變能力，以及速度代表的推動與傳遞方向，合成為一個能勢流動指標。
+本文使用 $P_{\mathrm{in}}(t)=a(t)v(t)$ 作為輸入端單位質量能勢流的代理量。它在本文中不作為傳統總功率使用；其作用是把加速度代表的運動改變能力，以及速度代表的推動與傳遞方向，合成為一個能勢流動指標。
 
 **輸入端量子結構力學能勢流 (Input-Side QSM Power Flow)**
 指由地震輸入端的 $a(t)$ 與 $v(t)$ 所形成的 QSM Power Flow。它描述地震波進入隔震系統之前，輸入端已經形成的能勢流動狀態。
@@ -43,7 +43,7 @@
 指隔震介面上的 $F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$ 與其時間積分量。這是輸入能勢真正進入隔震介面後的交換與做功。後文若使用 Interface Power、Interface Work 或 Interface Power/Work Packet，皆指此一介面層級的能勢與做功反應。
 
 **量測介面做功波包 (Measured Interface Power/Work Packet)**
-指由實測介面資料得到的短時間介面能勢／做功交換量。本文的跨案例群組總結顯示，這個量與量測隔震位移峰值呈現最清楚的關係。
+指由實測介面資料推導出的短時間介面能勢／做功交換量。這是本文在再分析中由量測反應資料計算出的衍生量，不是原研究原本提出的既有指標。本文的跨案例群組總結顯示，這個量與量測隔震位移峰值呈現最清楚的關係。
 
 **累積介面做功 (Accumulated Interface Work)**
 指介面能勢／做功交換隨時間累積後的總量。它可反映介面整體做功，但本文結果顯示，在部分案例群組中，短時間介面做功波包比累積做功更接近位移峰值。
@@ -73,10 +73,10 @@
 指本文總結圖與各案例群組 Figure 2 所呈現的頻率群關係圖。它用來觀察 QSM Power Frequency Group 如何接觸 Effective Isolation Frequency Group，而不是將頻率關係壓縮成單一分數。
 
 **單筆診斷圖 (Diagnosis Figure)**
-指本文針對單一地震資料所繪製的十子圖診斷圖。它同時呈現加速度、速度、QSM Power Flow、Power Packet、Interface Power / Work Exchange、Isolation Displacement 與 Frequency-Group Closure。本文後續提到 J 圖時，指的就是 Diagnosis Figure 中用來比較 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group的最後一個子圖。
+指本文針對單一地震資料所繪製的十子圖診斷圖。它同時呈現加速度、速度、QSM Power Flow、Power Packet、Interface Power / Work Exchange、Isolation Displacement 與 Frequency-Group Closure。本文後續提到 J 圖時，指的就是 Diagnosis Figure 中用來比較 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group 的最後一個子圖。
 
 **頻率群收斂比較 (Frequency-Group Closure)**
-指單筆診斷圖中用來比較 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group的圖面。它的重點不是只看三種頻率是否相近，而是看位移反應是否形成接近 $f_{\mathrm{eff}}$ 及其倍頻的整齊序列。若高位移案例中出現這種序列，代表隔震系統並非只從單一有效頻率接收能勢，而是透過一組有效頻率入口被推動。
+指單筆診斷圖中用來比較 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group 的圖面。它的重點不是只看三種頻率是否相近，而是看位移反應是否形成接近 $f_{\mathrm{eff}}$ 及其倍頻的整齊序列。若高位移案例中出現這種序列，代表隔震系統並非只從單一有效頻率接收能勢，而是透過一組有效頻率入口被推動。
 
 **時間差 (Lag)**
 指兩個事件峰值之間的時間距離，例如 QSM Power Packet peak 與隔震位移峰值之間的時間差。本文用它判斷能勢事件與位移事件是否在時間上接近。
@@ -117,11 +117,14 @@
 
 # 二、圖像與資料閱讀架構：從總體關係進入單筆機制
 
+本文需要先說明一點：本文所使用的隔震位移，是依公開資料一致處理出的上部—下部相對位移指標。這個量用於本文的 QSM 再分析與跨案例比較；它不是逐項重現原論文表格中每一個 displacement value 的整理表。
+
+
 本文的圖像分析分為三個層次。第一層是跨案例群組 Group1–4 的總體關係，用來觀察加速度、速度、QSM Power Flow、介面做功與隔震位移之間的整體趨勢。第二層是各案例群組的分組關係，用來保留短週期脈衝、中週期脈衝、非脈衝與頻譜匹配資料之間的差異。第三層是單筆資料的診斷圖，用來檢查時間波形、能勢波包、頻率群、介面做功與位移峰值是否能形成一條可追蹤的機制鏈。
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig01_core_power_viewpoint_transformation.png)
 
-跨案例群組的 Figure 1 用來回答第一個問題：若以量測隔震位移峰值 (Measured Upper-Lower Isolation displacement peak) 作為反應量，輸入加速度峰值 (Input Acceleration Peak)、輸入速度峰值 (Input Velocity Peak)、輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)、輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)、量測介面做功波包 (Measured Interface Power/Work Packet)，以及累積介面做功 (Accumulated Interface Work) 分別能提供多少解釋力。這張圖的目的不是把所有現象壓成單一分數，而是呈現資料如何從加速度／速度指標，逐步轉向能勢／做功指標。
+跨案例群組的 Figure 1 用來回答第一個問題：若以量測隔震位移峰值 (Measured Upper-Lower Isolation Displacement Peak) 作為反應量，輸入加速度峰值 (Input Acceleration Peak)、輸入速度峰值 (Input Velocity Peak)、輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)、輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)、量測介面做功波包 (Measured Interface Power/Work Packet)，以及累積介面做功 (Accumulated Interface Work) 分別能提供多少解釋力。這張圖的目的不是把所有現象壓成單一分數，而是呈現資料如何從加速度／速度指標，逐步轉向能勢／做功指標。
 
 其閱讀順序如下：
 
@@ -164,19 +167,22 @@ P_{\mathrm{in}}(t)=a(t)v(t)
 $$
 
 
-在本文中，這個量被視為輸入端 QSM Power Flow 代理量。它把加速度的變化能力與速度的傳遞方向合起來，使地震輸入不再只是「多大」的問題，而是「是否形成能勢流」的問題。
+在本文中，這個量被視為輸入端 QSM Power Flow 代理量。它把加速度的變化能力與速度的傳遞方向合起來，使地震輸入可以從「輸入強度大小」進一步被閱讀為「是否形成能勢流」的問題。
 
 跨案例群組的結果顯示：
 
-- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.424，Spearman ρ ≈ 0.466
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)：Pearson r ≈ 0.424，Spearman ρ ≈ 0.466
 - 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.461，Spearman ρ ≈ 0.448
 
 這些數值本身不是最強，但它們完成了一個關鍵轉向：地震輸入從運動量測變成能勢事件。真正最強的結果出現在介面層：
 
+需要注意的是，Measured Interface Power/Work Packet 是本文依量測介面反應資料計算出的衍生量，並非原研究原本定義的既有指標。它的用途是讓本文能夠檢查輸入能勢進入介面後，與隔震位移之間是否形成更清楚的關係。
+
+
 - 量測介面做功波包 (Measured Interface Power/Work Packet)：Pearson r ≈ 0.729，Spearman ρ ≈ 0.810
 - 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.595，Spearman ρ ≈ 0.698
 
-這是整篇文章最重要的總體證據。它顯示隔震位移不是只由輸入端加速度或速度決定，而是當輸入能勢進入隔震介面，形成實際 Interface Power / Work Exchange 後，才與位移峰值呈現更清楚的關係。
+這是整篇文章最重要的總體證據。它顯示隔震位移不能只由輸入端加速度或速度說明；當輸入能勢進入隔震介面並形成實際 Interface Power / Work Exchange 後，與位移峰值的關係才變得更清楚。
 
 換句話說，輸入地震波必須經過三層轉換：
 
@@ -189,7 +195,7 @@ a(t),v(t)
 $$
 
 
-這就是本文對原實驗資料的第一個 QSM 結論：隔震位移是能勢通過介面後的顯化，而非輸入加速度的直接映射。
+這就是本文對原實驗資料的第一個 QSM 結論：隔震位移可被閱讀為能勢通過介面後的顯化，不能只看成輸入加速度的直接映射。
 
 ---
 
@@ -210,16 +216,16 @@ Group1 是短週期脈衝案例。它不是位移最大的一組，但非常適�
 
 這代表 Group1 的位移不是由加速度峰值決定，而更接近速度脈衝的推動效果。接著看 QSM Power：
 
-- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.757，Spearman ρ ≈ 0.794
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)：Pearson r ≈ 0.757，Spearman ρ ≈ 0.794
 - 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.840，Spearman ρ ≈ 0.624
 - 量測介面做功波包 (Measured Interface Power/Work Packet)：Pearson r ≈ 0.901，Spearman ρ ≈ 0.964
 - 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.782，Spearman ρ ≈ 0.782
 
-Group1 的最大價值在於：它不只相關性漂亮，時間上也非常有力。許多案例中，QSM Power Packet peak 與 displacement peak 非常接近。這表示位移峰值不是整段地震能量慢慢平均累積出來，而是在關鍵短時間窗內，由能勢波包進入介面後快速推動形成。
+Group1 的最大價值在於：它不只相關性漂亮，時間上也非常有力。許多案例中，QSM Power Packet peak 與 displacement peak 非常接近。這表示位移峰值更接近關鍵短時間窗內的能勢波包事件，而非整段地震能量的平均累積結果。
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/Group1_Fig02_qsm_power_frequency_group_contact_combined.png)
 
-Group1 Figure 2 是理解短週期脈衝組的重要圖。它顯示，Group1 的高位移案例並不是只集中在單一頻率點，而是在有效隔震頻率族附近與其倍頻帶上形成多點接觸。上半圖保留完整 QSM Power Frequency Group，可以看到同一筆資料在固定 IsoDisp 水準上展開成多個頻率點；下半圖則放大靠近 $0.5f_{\mathrm{eff}}$ 、 $f_{\mathrm{eff}}$ 、 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 的區域。這張圖的重點不是宣稱某一個倍頻單獨控制位移，而是顯示短週期脈衝會把能勢推入一組頻率入口，最後再由隔震系統轉化為較低頻的位移反應。
+Group1 Figure 2 是理解短週期脈衝組的重要圖。它顯示，Group1 的高位移案例並不是只集中在單一頻率點，而是在有效隔震頻率族附近與其倍頻帶上形成多點接觸。上半圖保留完整 QSM Power Frequency Group，可以看到同一筆資料在固定 IsoDisp 水準上展開成多個頻率點；下半圖則放大靠近 $0.5f_{\mathrm{eff}}$ 、 $f_{\mathrm{eff}}$ 、 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 的區域。這張圖的重點在於顯示：短週期脈衝會把能勢推入一組頻率入口，最後再由隔震系統轉化為較低頻的位移反應；它不把某一個倍頻單獨視為位移控制來源。
 
 從圖中可見，RSN1013 與 RSN4847 形成 Group1 的高位移橫排，且它們的 QSM Power 頻率點同時接觸接近 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 的區域。這說明短週期脈衝雖然在時間上是一個短促事件，但在能勢頻率上並不單薄；它會以一組頻率群進入系統。中低位移案例如 RSN148、RSN4102、RSN4100 則同樣有頻率群接觸，但其位移水準較低，表示頻率接觸本身不是充分條件，仍必須與 Power Packet 強度、介面做功交換與時間同步性一起閱讀。
 
@@ -247,7 +253,7 @@ RSN784 的量測隔震位移峰值為 73.06 mm，峰值時間約為 11.95 s。�
 
 這筆資料屬於低位移反應。它的價值在於提供低反應對照，說明頻率群接觸本身不是充分條件；能勢量級、介面做功交換與位移頻率顯化必須一起成立，才會形成大位移。
 
-### RSN1013：中等位移案例
+### RSN1013：Group1 代表性高反應案例
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/RSN1013_1_0_21_V25_core_diagnosis.png)
 
@@ -265,7 +271,7 @@ RSN1013 的量測隔震位移峰值為 150.2 mm，峰值時間約為 3.297 s。�
 - Interface Frequency Group：0.666;1.554;2.442 Hz
 - Displacement Response Frequency Group：0.137;0.274;0.411;0.548;0.685;0.822;0.959 Hz
 
-這筆資料屬於中等位移反應。它的價值在於提供對照：即使存在 QSM Power Frequency Group 與 Interface Frequency Group，若介面做功波包或位移接收條件不足，位移仍不會被推到最高層級。
+這筆資料在 Group1 中屬於代表性高反應案例。它的價值在於顯示：即使整體位移量未達 Group2 或 Group3 的極端高位移層，短週期脈衝仍可透過 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group 形成可讀的位移顯化路徑。
 
 ### RSN4102：低位移案例
 
@@ -309,9 +315,9 @@ Input Velocity Peak 明顯提高。
 
 輸入端 QSM Power peak 只有中等關係。
 
-- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.468，Spearman ρ ≈ 0.406
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)：Pearson r ≈ 0.468，Spearman ρ ≈ 0.406
 
-但輸入端 1s QSM Power Packet 明顯更好。
+但輸入端一秒 QSM Power Packet 明顯更好。
 
 - 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.704，Spearman ρ ≈ 0.770
 
@@ -324,15 +330,15 @@ Input Velocity Peak 明顯提高。
 
 - 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.539，Spearman ρ ≈ 0.527
 
-這個差異很關鍵。它表示 Group2 的大位移不是由總能量累積單獨決定，而是由有效時間窗內的 Interface Power/Work Packet 決定。也就是說，能勢是否集中進入隔震介面，比最後總共累積多少更接近位移峰值的形成。
+這個差異很關鍵。它表示 Group2 的大位移與有效時間窗內的 Interface Power/Work Packet 更接近，不能只用總能量累積單獨說明。也就是說，能勢是否集中進入隔震介面，比最後總共累積多少更接近位移峰值的形成。
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/Group2_Fig02_qsm_power_frequency_group_contact_combined.png)
 
-Group2 Figure 2 顯示中週期脈衝組的核心特徵：位移水準整體明顯高於 Group1，且許多高位移資料在 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 附近仍保有 QSM Power Frequency Group的接觸。這與 Group1 不同。Group1 更像短時間能勢事件；Group2 則呈現較長週期速度脈衝把能勢持續推入隔震系統，形成更大的介面做功與更大的位移顯化。
+Group2 Figure 2 顯示中週期脈衝組的核心特徵：位移水準整體明顯高於 Group1，且許多高位移資料在 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 附近仍保有 QSM Power Frequency Group 的接觸。這與 Group1 不同。Group1 更像短時間能勢事件；Group2 則呈現較長週期速度脈衝把能勢持續推入隔震系統，形成更大的介面做功與更大的位移顯化。
 
 圖中 RSN170 是最醒目的高位移案例。它在多個 QSM Power 頻率峰值 上維持高 IsoDisp 水準，代表大位移不是由單一頻率點造成，而是由一組能勢頻率共同參與。RSN1165、RSN802、RSN983 等案例也落在中高位移層，顯示中週期脈衝的危險性不只是速度峰值高，而是它的能勢頻率群較容易與隔震系統入口頻率族形成有效接觸。
 
-相對地，RSN3317、RSN8130、RSN1085 等低位移案例也能看到頻率點，但其橫排位移水準明顯較低。這表示 Group2 的判讀不能停在「有沒有接觸 $f_{\mathrm{eff}}$ 或倍頻」，而要同時看接觸之後是否形成足夠強的 Power Packet 與 Interface Work packet。換句話說，Group2 Figure 2 的功能，是把「中週期脈衝造成大位移」從單純週期描述，推進到「能勢頻率群如何進入隔震介面」的描述。
+相對地，RSN3317、RSN8130、RSN1085 等低位移案例也能看到頻率點，但其橫排位移水準明顯較低。這表示 Group2 的判讀不能停在「有沒有接觸 $f_{\mathrm{eff}}$ 或倍頻」，而要同時看接觸之後是否形成足夠強的 Power Packet 與 Interface Work Packet。換句話說，Group2 Figure 2 的功能，是把「中週期脈衝造成大位移」從單純週期描述，推進到「能勢頻率群如何進入隔震介面」的描述。
 
 ## Group2 代表案例
 
@@ -394,11 +400,11 @@ RSN8130 的量測隔震位移峰值為 165.0 mm，峰值時間約為 4.938 s。�
 - Interface Frequency Group：0.625;1.374;1.874;2.374 Hz
 - Displacement Response Frequency Group：0.250;1.000 Hz
 
-這筆資料屬於中等位移反應。它的價值在於提供對照：即使存在 QSM Power Frequency Group 與 Interface Frequency Group，若介面做功波包或位移接收條件不足，位移仍不會被推到最高層級。
+這筆資料在 Group1 中屬於代表性高反應案例。它的價值在於顯示：即使整體位移量未達 Group2 或 Group3 的極端高位移層，短週期脈衝仍可透過 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group 形成可讀的位移顯化路徑。
 
 ## Group2 小結
 
-Group2 是 QSM Power Flow 最清楚的中週期脈衝證據。它說明中週期速度脈衝不是只讓速度峰值變大，而是更容易形成能夠推動隔震層的 Power Packet。當這個 packet 進入介面，並形成強 Interface Power / Work Exchange，隔震層就會被推到大位移。
+Group2 是 QSM Power Flow 最清楚的中週期脈衝證據。它說明中週期速度脈衝除了提高速度峰值，也更容易形成能夠推動隔震層的 Power Packet。當這個 packet 進入介面，並形成強 Interface Power / Work Exchange，隔震層就會被推到大位移。
 
 ---
 
@@ -418,19 +424,19 @@ Input Velocity Peak 明顯提升。
 
 QSM Power peak 顯示出有趣的排序性。
 
-- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.486，Spearman ρ ≈ 0.794
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)：Pearson r ≈ 0.486，Spearman ρ ≈ 0.794
 
-輸入端 1s QSM Power Packet如下。
+輸入端一秒 QSM Power Packet如下。
 
 - 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.387，Spearman ρ ≈ 0.733
 
 這代表 Group3 的 Power 指標不一定呈現乾淨線性比例，但能分辨位移層級。這與 Group2 很不同。Group2 比較像一段中週期脈衝直接形成強 packet；Group3 則像分散能勢在頻率群與介面中重新組合。
 
-介面端Interface Power/Work Packet如下。
+介面端 Interface Power/Work Packet 如下。
 
 - 量測介面做功波包 (Measured Interface Power/Work Packet)：Pearson r ≈ 0.586，Spearman ρ ≈ 0.576
 
-介面端Accumulated Interface Work如下。
+介面端 Accumulated Interface Work 如下。
 
 - 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.533，Spearman ρ ≈ 0.576
 
@@ -486,7 +492,7 @@ RSN878FN 的量測隔震位移峰值為 140.3 mm，峰值時間約為 40.91 s。
 - Interface Frequency Group：0.750;1.125;1.499;2.124 Hz
 - Displacement Response Frequency Group：0.250;0.750 Hz
 
-這筆資料屬於中等位移反應。它的價值在於提供對照：即使存在 QSM Power Frequency Group 與 Interface Frequency Group，若介面做功波包或位移接收條件不足，位移仍不會被推到最高層級。
+這筆資料在 Group1 中屬於代表性高反應案例。它的價值在於顯示：即使整體位移量未達 Group2 或 Group3 的極端高位移層，短週期脈衝仍可透過 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group 形成可讀的位移顯化路徑。
 
 ### RSN1164FP：高位移案例
 
@@ -518,7 +524,7 @@ Group3 的意義是把 QSM 從脈衝案例推展到非脈衝能勢場。非脈�
 
 Group4 是 Spectrally Matched Group。它對本文非常重要，因為它直接碰到工程設計中很核心的問題：如果地震波在反應譜座標上已經被調整得相近，實際隔震位移是否也應該相近？
 
-QSM 的回答是：不一定。反應譜相似，不代表 QSM Power Flow、Interface Work exchange 與 frequency-group contact 相同。
+QSM 的回答是：不一定。反應譜相似，不代表 QSM Power Flow、Interface Work Exchange 與 Frequency-Group Contact 相同。
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group4/Group4_Fig01_core_power_viewpoint_transformation.png)
 
@@ -532,16 +538,16 @@ Input Velocity Peak 相對提高到如下。
 
 輸入端 QSM Power peak如下。
 
-- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.470，Spearman ρ ≈ 0.442
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power Peak)：Pearson r ≈ 0.470，Spearman ρ ≈ 0.442
 
-輸入端 QSM 1s Power Packet如下。
+輸入端一秒 QSM Power Packet如下。
 
 - 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.448，Spearman ρ ≈ 0.418
 
 最關鍵仍然是 Interface Power/Work Packet與Accumulated Interface Work如下。
 
 - 量測介面做功波包 (Measured Interface Power/Work Packet)：Pearson r ≈ 0.676，Spearman ρ ≈ 0.576
-- 累積介面做功 (Accumulated Interface Work)：：Pearson r ≈ 0.380，Spearman ρ ≈ 0.491
+- 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.380，Spearman ρ ≈ 0.491
 
 它比 acceleration、velocity、輸入端 QSM Power 更接近 隔震位移峰值 (IsoDisp peak)。這說明 Group4 的差異真正開始在介面層被放大：輸入端看起來已經被頻譜匹配整理過，但到了隔震介面，Interface Power / Work Exchange 仍顯示不同的能勢交換強度。
 
@@ -551,9 +557,9 @@ Group4 Figure 2 是本文對 頻譜匹配 最直接的補充證據。這組資�
 
 圖中 RSN802M 形成最高位移橫排，RSN803M 與 RSN1085M 也位於高位移層，而 RSN8130M 等案例位移較低。這些差異不是 Figure 1 中 Input Acceleration Peak 可以單獨解釋的，也不是 頻譜匹配 之後自然消失的。Group4 Figure 2 顯示，頻譜匹配資料 在 $f_{\mathrm{eff}}$ 及其倍頻附近仍有不同的接觸密度與能勢分布；某些資料能把 QSM Power Frequency Group 有效帶入隔震系統，某些資料則不能。
 
-這張圖的意義，不是說 頻譜匹配 沒有價值，而是說它控制的是反應譜外觀，不保證控制能勢路徑。對隔震系統而言，真正要進一步確認的是：匹配後的地震波是否仍在時間窗內形成 Power Packet，是否在介面形成做功交換，是否在頻率群上接觸有效隔震頻率族，最後是否轉成低頻位移顯化。
+這張圖的意義不在於否定頻譜匹配的價值，而在於指出：頻譜匹配主要控制反應譜外觀，並不保證同步控制能勢路徑。對隔震系統而言，真正要進一步確認的是：匹配後的地震波是否仍在時間窗內形成 Power Packet，是否在介面形成做功交換，是否在頻率群上接觸有效隔震頻率族，最後是否轉成低頻位移顯化。
 
-因此，Group4 Figure 2 應被視為本文對工程設計語言的提醒：反應譜相似，不等於能勢相似；頻率群相似，也不必然等於介面做功相似。隔震位移要回到能勢通過介面的實際路徑來判讀。
+因此，Group4 Figure 2 應被視為本文對工程設計語言的提醒：反應譜相似，仍可能對應不同的能勢路徑；頻率群相似，也仍需回到介面做功檢查。隔震位移要回到能勢通過介面的實際路徑來判讀。
 
 ## Group4 代表案例
 
@@ -615,11 +621,11 @@ RSN8130M 的量測隔震位移峰值為 118.4 mm，峰值時間約為 34.83 s。
 - Interface Frequency Group：0.750;1.249 Hz
 - Displacement Response Frequency Group：0.375 Hz
 
-這筆資料屬於中等位移反應。它的價值在於提供對照：即使存在 QSM Power Frequency Group 與 Interface Frequency Group，若介面做功波包或位移接收條件不足，位移仍不會被推到最高層級。
+這筆資料在 Group1 中屬於代表性高反應案例。它的價值在於顯示：即使整體位移量未達 Group2 或 Group3 的極端高位移層，短週期脈衝仍可透過 QSM Power Frequency Group、Interface Frequency Group 與 Displacement Response Frequency Group 形成可讀的位移顯化路徑。
 
 ## Group4 小結
 
-Group4 的核心貢獻，是指出 頻譜匹配 的盲點：它同步的是反應譜，不一定同步能勢通道。它控制的是輸入在設計譜上的外觀，但結構真正承受的是時間波包、速度推動、Power Flow、介面做功與頻率群接觸。這也是為什麼 頻譜匹配組 仍然會呈現明顯位移差異。
+Group4 的核心貢獻，是指出頻譜匹配的盲點：它可以同步反應譜，卻不一定同步能勢通道。它控制的是輸入在設計譜上的外觀，但結構真正承受的是時間波包、速度推動、Power Flow、介面做功與頻率群接觸。這也是為什麼 頻譜匹配組 仍然會呈現明顯位移差異。
 
 ---
 

@@ -1,0 +1,11 @@
+﻿panel,figure_item,role_in_argument,what_to_read,key_value,unit,note
+A,Input acceleration a(t),kinematic baseline,upstream acceleration peak magnitude,0.34309071,g,baseline input motion; not a Power quantity
+B,Acceleration frequency group,frequency baseline,top local acceleration frequency peaks,3.109;0.666;1.110;7.105;1.998;6.439;4.885;7.994,Hz,local window around QSM packet peak
+C,Input velocity v(t),kinematic baseline,upstream velocity peak magnitude,0.5999079024768079,m/s,velocity layer before QSM Power conversion
+D,Velocity frequency group,frequency baseline,top local velocity frequency peaks,0.666;3.109;1.998;3.997;4.441;4.885;7.105;6.439,Hz,local window around QSM packet peak
+E,Input-side QSM Power P(t)=a(t)v(t),Power viewpoint transformation,instantaneous input-side QSM Power shock,1.3608537732803858,W/kg,a(t) and v(t) are multiplied into an upstream Power proxy
+F,QSM Power frequency group,Power frequency-group map,QSM Power peaks kept as a group,3.109;1.110;2.442;0.666;1.998;1.554;7.105;4.219,Hz,frequency group is not compressed into a scalar score
+G,QSM Power packet,upstream Power packet,1s ∫|a·v|dt and lag to IsoDisp peak,0.371687; lag=2.79688,J/kg; s,positive lag means IsoDisp peak occurs after QSM packet peak
+H,Interface Power / Work exchange,measured interface exchange,1s ∫|F·v_rel|dt and lag to IsoDisp peak,5.50389; lag=2.79688,kJ; s,measured exchange layer at the isolation interface
+I,Upper-lower displacement response,measured response,upper-lower isolation displacement peak and peak time,150.174; t=3.29688,mm; s,response variable used in summary figures
+J,QSM / Interface / IsoDisp frequency-group closure,frequency-domain closure map,"Compare QSM Power, interface Power, and measured IsoDisp response peaks with effective isolation-frequency group lines",QSM=3.109;1.110;2.442;0.666;1.998;1.554;7.105;4.219 | Interface=0.666;1.554;2.442 | IsoDisp=0.137;0.274;0.411;0.548;0.685;0.822;0.959,Hz,"relation map: x=frequency, y=relative amplitude; no scalar compression"

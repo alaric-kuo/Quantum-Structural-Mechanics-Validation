@@ -1,0 +1,218 @@
+﻿section,panel,key,value,unit,description,source
+metadata,,group,Group4,,record identity,process_record
+metadata,,record_id,RSN8130M_1_0_31,,record identity,process_record
+metadata,,filename,RSN8130M_1_0_31.txt,,record identity,process_record
+metadata,,fs_Hz,256.01638504860176,Hz,estimated sampling frequency,estimate_fs
+metadata,A,Acceleration_col,AccX[g],,source acceleration column,infer_acc_column
+window,A/C/E,qsm_local_window_start_s,11.789063,s,local frequency extraction window start,local_window_mask
+window,A/C/E,qsm_local_window_end_s,19.789063,s,local frequency extraction window end,local_window_mask
+window,G/H,packet_window_sec,1.0,s,moving packet integration window,moving_abs_integral
+window,B/D/F/J,fft_peak_band_low_Hz,0.05,Hz,frequency group extraction lower bound,fft_peak_group
+window,B/D/F/J,fft_peak_band_high_Hz,20.0,Hz,frequency group extraction upper bound,fft_peak_group
+window,B/D/F/J,fft_top_n,8,count,maximum peaks kept in each frequency group,fft_peak_group
+effective_frequency,B/D/F/J,Teff_s,3.7,s,effective isolation period,constant TEFF_SEC
+effective_frequency,B/D/F/J,f_eff_Hz,0.27027027027027023,Hz,effective isolation frequency = 1/Teff,constant TEFF_SEC
+effective_frequency,B/D/F/J,0.5f_eff,0.13513513513513511,Hz,vertical reference line 0.5f_eff,draw_effective_frequency_lines
+effective_frequency,B/D/F/J,1f_eff,0.27027027027027023,Hz,vertical reference line 1f_eff,draw_effective_frequency_lines
+effective_frequency,B/D/F/J,2f_eff,0.5405405405405405,Hz,vertical reference line 2f_eff,draw_effective_frequency_lines
+effective_frequency,B/D/F/J,3f_eff,0.8108108108108107,Hz,vertical reference line 3f_eff,draw_effective_frequency_lines
+effective_frequency,B/D/F/J,4f_eff,1.081081081081081,Hz,vertical reference line 4f_eff,draw_effective_frequency_lines
+signal_peak,A,Acceleration_peak_abs_g,0.31198058,g,absolute input acceleration peak,process_record
+signal_peak,C,Velocity_peak_abs_mps,0.32348766467803736,m/s,absolute input velocity peak,process_record
+power_peak,E,QSM_PowerFlow_peak_abs_W_per_kg,0.4521489202984509,W/kg,absolute input-side QSM Power peak,process_record
+packet,G,QSM_PowerFlow_abs_packet_1s_peak_J_per_kg,0.16422614140282266,J/kg,peak 1s input-side QSM Power packet,process_record
+timing,G,QSM_PowerFlow_abs_packet_1s_peak_time_s,15.789063,s,QSM packet peak time,process_record
+timing,G,QSM_PowerFlow_packet_to_Iso_peak_lag_s,19.042968000000002,s,IsoDisp peak time minus QSM packet peak time,process_record
+interface,H,Interface_power_peak_abs_kW,6.449858303442299,kW,absolute interface Power peak,process_record
+interface,H,Interface_power_packet_1s_peak_kJ,3.5934477392904514,kJ,peak 1s measured interface Power/Work packet,process_record
+timing,H,Interface_power_packet_1s_peak_time_s,35.445313,s,interface packet peak time,process_record
+timing,H,Interface_packet_to_Iso_peak_lag_s,-0.6132819999999981,s,IsoDisp peak time minus interface packet peak time,process_record
+interface,H,Interface_abs_work_kJ,31.40545335438982,kJ,accumulated absolute interface Work,process_record
+response,I,IsoDisp_peak_abs_mm,118.390824073,mm,measured upper-lower displacement peak,process_record
+response,I,IsoDisp_peak_time_s,34.832031,s,time of measured upper-lower displacement peak,process_record
+input_displacement,A/C,Measured_input_disp_peak_abs_mm,124.586052670325,mm,measured input displacement peak from shaking table file if available,process_record
+input_displacement,C,CalcDisp_from_velocity_peak_abs_mm,137.80153783406277,mm,velocity-integrated input displacement peak,process_record
+frequency_group,B,Acceleration_frequency_group_Hz,1.125;1.999;1.624;3.124;6.747;5.623;0.375;7.372,Hz,local acceleration frequency group,fft_peak_group
+frequency_peak,B,Acceleration_peak1_freq_Hz,1.1245229211505203,Hz,local acceleration frequency group: peak 1 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak1_period_s,0.8892660000001436,s,local acceleration frequency group: peak 1 period,fft_peak_group
+frequency_peak,B,Acceleration_peak1_rel_amp,1.0,0-1,local acceleration frequency group: peak 1 relative amplitude,fft_peak_group
+frequency_peak,B,Acceleration_peak2_freq_Hz,1.9991518598231472,Hz,local acceleration frequency group: peak 2 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak2_period_s,0.5002121250000807,s,local acceleration frequency group: peak 2 period,fft_peak_group
+frequency_peak,B,Acceleration_peak2_rel_amp,0.4627261410683136,0-1,local acceleration frequency group: peak 2 relative amplitude,fft_peak_group
+frequency_peak,B,Acceleration_peak3_freq_Hz,1.6243108861063071,Hz,local acceleration frequency group: peak 3 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak3_period_s,0.6156456923077916,s,local acceleration frequency group: peak 3 period,fft_peak_group
+frequency_peak,B,Acceleration_peak3_rel_amp,0.3858070221579719,0-1,local acceleration frequency group: peak 3 relative amplitude,fft_peak_group
+frequency_peak,B,Acceleration_peak4_freq_Hz,3.1236747809736674,Hz,local acceleration frequency group: peak 4 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak4_period_s,0.3201357600000517,s,local acceleration frequency group: peak 4 period,fft_peak_group
+frequency_peak,B,Acceleration_peak4_rel_amp,0.3552188630302475,0-1,local acceleration frequency group: peak 4 relative amplitude,fft_peak_group
+frequency_peak,B,Acceleration_peak5_freq_Hz,6.747137526903122,Hz,local acceleration frequency group: peak 5 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak5_period_s,0.1482110000000239,s,local acceleration frequency group: peak 5 period,fft_peak_group
+frequency_peak,B,Acceleration_peak5_rel_amp,0.2603864129864486,0-1,local acceleration frequency group: peak 5 relative amplitude,fft_peak_group
+frequency_peak,B,Acceleration_peak6_freq_Hz,5.622614605752601,Hz,local acceleration frequency group: peak 6 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak6_period_s,0.17785320000002872,s,local acceleration frequency group: peak 6 period,fft_peak_group
+frequency_peak,B,Acceleration_peak6_rel_amp,0.2565172880884785,0-1,local acceleration frequency group: peak 6 relative amplitude,fft_peak_group
+frequency_peak,B,Acceleration_peak7_freq_Hz,0.3748409737168401,Hz,local acceleration frequency group: peak 7 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak7_period_s,2.6677980000004307,s,local acceleration frequency group: peak 7 period,fft_peak_group
+frequency_peak,B,Acceleration_peak7_rel_amp,0.21838559863027995,0-1,local acceleration frequency group: peak 7 relative amplitude,fft_peak_group
+frequency_peak,B,Acceleration_peak8_freq_Hz,7.371872483097856,Hz,local acceleration frequency group: peak 8 frequency,fft_peak_group
+frequency_peak,B,Acceleration_peak8_period_s,0.13565074576273375,s,local acceleration frequency group: peak 8 period,fft_peak_group
+frequency_peak,B,Acceleration_peak8_rel_amp,0.20675860986737213,0-1,local acceleration frequency group: peak 8 relative amplitude,fft_peak_group
+frequency_group,D,Velocity_frequency_group_Hz,1.000;0.375;1.624;1.999;3.124,Hz,local velocity frequency group,fft_peak_group
+frequency_peak,D,Velocity_peak1_freq_Hz,0.9995759299115736,Hz,local velocity frequency group: peak 1 frequency,fft_peak_group
+frequency_peak,D,Velocity_peak1_period_s,1.0004242500001614,s,local velocity frequency group: peak 1 period,fft_peak_group
+frequency_peak,D,Velocity_peak1_rel_amp,1.0,0-1,local velocity frequency group: peak 1 relative amplitude,fft_peak_group
+frequency_peak,D,Velocity_peak2_freq_Hz,0.3748409737168401,Hz,local velocity frequency group: peak 2 frequency,fft_peak_group
+frequency_peak,D,Velocity_peak2_period_s,2.6677980000004307,s,local velocity frequency group: peak 2 period,fft_peak_group
+frequency_peak,D,Velocity_peak2_rel_amp,0.6172958925611393,0-1,local velocity frequency group: peak 2 relative amplitude,fft_peak_group
+frequency_peak,D,Velocity_peak3_freq_Hz,1.6243108861063071,Hz,local velocity frequency group: peak 3 frequency,fft_peak_group
+frequency_peak,D,Velocity_peak3_period_s,0.6156456923077916,s,local velocity frequency group: peak 3 period,fft_peak_group
+frequency_peak,D,Velocity_peak3_rel_amp,0.2521561596586441,0-1,local velocity frequency group: peak 3 relative amplitude,fft_peak_group
+frequency_peak,D,Velocity_peak4_freq_Hz,1.9991518598231472,Hz,local velocity frequency group: peak 4 frequency,fft_peak_group
+frequency_peak,D,Velocity_peak4_period_s,0.5002121250000807,s,local velocity frequency group: peak 4 period,fft_peak_group
+frequency_peak,D,Velocity_peak4_rel_amp,0.24551159639218934,0-1,local velocity frequency group: peak 4 relative amplitude,fft_peak_group
+frequency_peak,D,Velocity_peak5_freq_Hz,3.1236747809736674,Hz,local velocity frequency group: peak 5 frequency,fft_peak_group
+frequency_peak,D,Velocity_peak5_period_s,0.3201357600000517,s,local velocity frequency group: peak 5 period,fft_peak_group
+frequency_peak,D,Velocity_peak5_rel_amp,0.11993972246935529,0-1,local velocity frequency group: peak 5 relative amplitude,fft_peak_group
+frequency_group,F,QSM_Power_frequency_group_Hz,1.999;2.749;3.499;1.499;0.750;6.747;7.497;4.248,Hz,local input-side QSM Power frequency group,fft_peak_group
+frequency_peak,F,QSM_Power_peak1_freq_Hz,1.9991518598231472,Hz,local input-side QSM Power frequency group: peak 1 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak1_period_s,0.5002121250000807,s,local input-side QSM Power frequency group: peak 1 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak1_rel_amp,1.0,0-1,local input-side QSM Power frequency group: peak 1 relative amplitude,fft_peak_group
+frequency_peak,F,QSM_Power_peak2_freq_Hz,2.7488338072568275,Hz,local input-side QSM Power frequency group: peak 2 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak2_period_s,0.3637906363636951,s,local input-side QSM Power frequency group: peak 2 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak2_rel_amp,0.7854771354424738,0-1,local input-side QSM Power frequency group: peak 2 relative amplitude,fft_peak_group
+frequency_peak,F,QSM_Power_peak3_freq_Hz,3.4985157546905077,Hz,local input-side QSM Power frequency group: peak 3 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak3_period_s,0.28583550000004615,s,local input-side QSM Power frequency group: peak 3 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak3_rel_amp,0.47052790449236354,0-1,local input-side QSM Power frequency group: peak 3 relative amplitude,fft_peak_group
+frequency_peak,F,QSM_Power_peak4_freq_Hz,1.4993638948673604,Hz,local input-side QSM Power frequency group: peak 4 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak4_period_s,0.6669495000001077,s,local input-side QSM Power frequency group: peak 4 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak4_rel_amp,0.46247259761423287,0-1,local input-side QSM Power frequency group: peak 4 relative amplitude,fft_peak_group
+frequency_peak,F,QSM_Power_peak5_freq_Hz,0.7496819474336802,Hz,local input-side QSM Power frequency group: peak 5 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak5_period_s,1.3338990000002153,s,local input-side QSM Power frequency group: peak 5 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak5_rel_amp,0.41106197605729633,0-1,local input-side QSM Power frequency group: peak 5 relative amplitude,fft_peak_group
+frequency_peak,F,QSM_Power_peak6_freq_Hz,6.747137526903122,Hz,local input-side QSM Power frequency group: peak 6 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak6_period_s,0.1482110000000239,s,local input-side QSM Power frequency group: peak 6 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak6_rel_amp,0.24195943922983457,0-1,local input-side QSM Power frequency group: peak 6 relative amplitude,fft_peak_group
+frequency_peak,F,QSM_Power_peak7_freq_Hz,7.496819474336802,Hz,local input-side QSM Power frequency group: peak 7 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak7_period_s,0.13338990000002152,s,local input-side QSM Power frequency group: peak 7 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak7_rel_amp,0.20793247038232693,0-1,local input-side QSM Power frequency group: peak 7 relative amplitude,fft_peak_group
+frequency_peak,F,QSM_Power_peak8_freq_Hz,4.2481977021241875,Hz,local input-side QSM Power frequency group: peak 8 frequency,fft_peak_group
+frequency_peak,F,QSM_Power_peak8_period_s,0.2353939411765086,s,local input-side QSM Power frequency group: peak 8 period,fft_peak_group
+frequency_peak,F,QSM_Power_peak8_rel_amp,0.20141185288545593,0-1,local input-side QSM Power frequency group: peak 8 relative amplitude,fft_peak_group
+frequency_group,J,Interface_Power_frequency_group_Hz,0.750;1.249,Hz,local interface Power frequency group,fft_peak_group
+frequency_peak,J,Interface_Power_peak1_freq_Hz,0.7496819474336802,Hz,local interface Power frequency group: peak 1 frequency,fft_peak_group
+frequency_peak,J,Interface_Power_peak1_period_s,1.3338990000002153,s,local interface Power frequency group: peak 1 period,fft_peak_group
+frequency_peak,J,Interface_Power_peak1_rel_amp,1.0,0-1,local interface Power frequency group: peak 1 relative amplitude,fft_peak_group
+frequency_peak,J,Interface_Power_peak2_freq_Hz,1.249469912389467,Hz,local interface Power frequency group: peak 2 frequency,fft_peak_group
+frequency_peak,J,Interface_Power_peak2_period_s,0.8003394000001292,s,local interface Power frequency group: peak 2 period,fft_peak_group
+frequency_peak,J,Interface_Power_peak2_rel_amp,0.3018006773454137,0-1,local interface Power frequency group: peak 2 relative amplitude,fft_peak_group
+frequency_group,J,IsoDisp_Response_frequency_group_Hz,0.375,Hz,local measured upper-lower displacement response frequency group,fft_peak_group
+frequency_peak,J,IsoDisp_Response_peak1_freq_Hz,0.3748409737168401,Hz,local measured upper-lower displacement response frequency group: peak 1 frequency,fft_peak_group
+frequency_peak,J,IsoDisp_Response_peak1_period_s,2.6677980000004307,s,local measured upper-lower displacement response frequency group: peak 1 period,fft_peak_group
+frequency_peak,J,IsoDisp_Response_peak1_rel_amp,1.0,0-1,local measured upper-lower displacement response frequency group: peak 1 relative amplitude,fft_peak_group
+frequency_contact,F,QSM_near_effective_isolation_frequency_groups,0.75Hz~3f_eff,,QSM Power peaks near 0.5/1/2/3/4 f_eff,teff_contact_candidates
+frequency_contact,J,Interface_Power_near_effective_isolation_frequency_groups,0.75Hz~3f_eff,,Interface Power peaks near 0.5/1/2/3/4 f_eff,teff_contact_candidates
+frequency_contact,J,IsoDisp_response_near_effective_isolation_frequency_groups,,,measured IsoDisp response peaks near 0.5/1/2/3/4 f_eff,teff_contact_candidates
+av_to_qsm_frequency_audit,F,QSM_peak1_freq_Hz,1.9991518598231472,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak1_rel_amp,1.0,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak1_candidate_type,sum,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_candidate_freq_Hz,1.9991518598231472,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_candidate_error_Hz,0.0,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_candidate_error_ratio,0.0,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_A_rank,3,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_A_freq_Hz,1.6243108861063071,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_A_rel_amp,0.3858070221579719,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_V_rank,2,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_V_freq_Hz,0.3748409737168401,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_V_rel_amp,0.6172958925611393,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak1_interpretation,matched by A/V sum-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_freq_Hz,2.7488338072568275,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak2_rel_amp,0.7854771354424738,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak2_candidate_type,sum,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_candidate_freq_Hz,2.7488338072568275,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_candidate_error_Hz,0.0,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_candidate_error_ratio,0.0,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_A_rank,1,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_A_freq_Hz,1.1245229211505203,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_A_rel_amp,1.0,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_V_rank,3,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_V_freq_Hz,1.6243108861063071,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_V_rel_amp,0.2521561596586441,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak2_interpretation,matched by A/V sum-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_freq_Hz,3.4985157546905077,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak3_rel_amp,0.47052790449236354,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak3_candidate_type,sum,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_candidate_freq_Hz,3.4985157546905077,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_candidate_error_Hz,0.0,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_candidate_error_ratio,0.0,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_A_rank,4,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_A_freq_Hz,3.1236747809736674,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_A_rel_amp,0.3552188630302475,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_V_rank,2,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_V_freq_Hz,0.3748409737168401,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_V_rel_amp,0.6172958925611393,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak3_interpretation,matched by A/V sum-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_freq_Hz,1.4993638948673604,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak4_rel_amp,0.46247259761423287,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak4_candidate_type,sum,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_candidate_freq_Hz,1.4993638948673604,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_candidate_error_Hz,0.0,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_candidate_error_ratio,0.0,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_A_rank,1,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_A_freq_Hz,1.1245229211505203,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_A_rel_amp,1.0,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_V_rank,2,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_V_freq_Hz,0.3748409737168401,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_V_rel_amp,0.6172958925611393,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak4_interpretation,matched by A/V sum-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_freq_Hz,0.7496819474336802,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak5_rel_amp,0.41106197605729633,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak5_candidate_type,diff,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_candidate_freq_Hz,0.7496819474336802,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_candidate_error_Hz,0.0,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_candidate_error_ratio,0.0,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_A_rank,1,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_A_freq_Hz,1.1245229211505203,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_A_rel_amp,1.0,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_V_rank,2,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_V_freq_Hz,0.3748409737168401,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_V_rel_amp,0.6172958925611393,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak5_interpretation,matched by A/V diff-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_freq_Hz,6.747137526903122,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak6_rel_amp,0.24195943922983457,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak6_candidate_type,sum,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_candidate_freq_Hz,6.622190535664175,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_candidate_error_Hz,0.12494699123894737,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_candidate_error_ratio,0.018518518518518615,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_A_rank,6,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_A_freq_Hz,5.622614605752601,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_A_rel_amp,0.2565172880884785,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_V_rank,1,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_V_freq_Hz,0.9995759299115736,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_V_rel_amp,1.0,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak6_interpretation,matched by A/V sum-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_freq_Hz,7.496819474336802,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak7_rel_amp,0.20793247038232693,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak7_candidate_type,sum,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_candidate_freq_Hz,7.621766465575749,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_candidate_error_Hz,0.12494699123894648,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_candidate_error_ratio,0.01639344262295079,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_A_rank,6,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_A_freq_Hz,5.622614605752601,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_A_rel_amp,0.2565172880884785,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_V_rank,4,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_V_freq_Hz,1.9991518598231472,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_V_rel_amp,0.24551159639218934,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak7_interpretation,matched by A/V sum-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_freq_Hz,4.2481977021241875,Hz,QSM Power peak being audited,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak8_rel_amp,0.20141185288545593,0-1,QSM Power peak relative amplitude,fft_peak_group
+av_to_qsm_frequency_audit,F,QSM_peak8_candidate_type,sum,,nearest A/V candidate type: sum or diff,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_candidate_freq_Hz,4.2481977021241875,Hz,nearest A/V candidate frequency,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_candidate_error_Hz,0.0,Hz,absolute frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_candidate_error_ratio,0.0,ratio,relative frequency error,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_A_rank,1,rank,acceleration peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_A_freq_Hz,1.1245229211505203,Hz,acceleration peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_A_rel_amp,1.0,0-1,acceleration peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_V_rank,5,rank,velocity peak rank used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_V_freq_Hz,3.1236747809736674,Hz,velocity peak frequency used by candidate,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_V_rel_amp,0.11993972246935529,0-1,velocity peak relative amplitude,best_av_candidate_for_qsm
+av_to_qsm_frequency_audit,F,QSM_peak8_interpretation,matched by A/V sum-frequency candidate,,audit interpretation; diagnostic only,best_av_candidate_for_qsm

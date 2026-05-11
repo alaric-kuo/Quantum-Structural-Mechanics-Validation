@@ -1,0 +1,8 @@
+﻿scope,figure,panel,figure_item,x_column,y_column,pearson_r,spearman_rho,reading_note
+Group4,Fig01,A,input acceleration peak,Acceleration_peak_abs_g,IsoDisp_peak_abs_mm,0.26506421298062766,0.12727272727272726,Acceleration alone is the baseline motion view.
+Group4,Fig01,B,input velocity peak,Velocity_peak_abs_mps,IsoDisp_peak_abs_mm,0.4964858213201566,0.4787878787878787,Velocity is closer to displacement demand than acceleration.
+Group4,Fig01,C,input-side QSM Power peak,QSM_PowerFlow_peak_abs_W_per_kg,IsoDisp_peak_abs_mm,0.46989211528534675,0.4424242424242424,Instantaneous QSM Power shows upstream Power shock.
+Group4,Fig01,D,input-side QSM Power packet,QSM_PowerFlow_abs_packet_1s_peak_J_per_kg,IsoDisp_peak_abs_mm,0.44834737698150773,0.41818181818181815,The 1s packet reads short-window incoming QSM Power.
+Group4,Fig01,E,measured interface Power/Work packet,Interface_power_packet_1s_peak_kJ,IsoDisp_peak_abs_mm,0.6761526326677048,0.5757575757575757,The interface packet is the measured exchange layer.
+Group4,Fig01,F,measured accumulated interface Work,Interface_abs_work_kJ,IsoDisp_peak_abs_mm,0.38040147105628197,0.49090909090909085,Accumulated Work is the response-side exchange context.
+Group4,Fig02,A/B,QSM Power frequency-group contact map,QSM Power peak frequency [Hz],IsoDisp_peak_abs_mm,,,Frequency-group contact is a relation map. It is not reduced to a score.

@@ -4,12 +4,7 @@ This repository provides the real-data validation materials for **Quantum Struct
 
 The purpose of this repository is not only to reproduce conventional seismic-response indicators, but to re-read the isolation response through a QSM mechanism chain:
 
-\[
-a(t), v(t)
-\rightarrow P_{\mathrm{in}}(t)=a(t)v(t)
-\rightarrow F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)
-\rightarrow u_{\mathrm{iso}}(t)
-\]
+$$a(t),v(t)\rightarrow P_{\mathrm{in}}(t)=a(t)v(t)\rightarrow F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)\rightarrow u_{\mathrm{iso}}(t)$$
 
 In this view, a seismic wave is treated as an incoming power field. The isolation displacement is interpreted as the final manifestation of power after it enters the isolation interface, forms interface power/work exchange, and is converted into measurable upper-lower displacement response.
 
@@ -139,11 +134,11 @@ Each record-level diagnosis figure contains ten panels:
 
 | Panel | Meaning |
 |---|---|
-| A | input acceleration \(a(t)\) |
+| A | input acceleration $a(t)$ |
 | B | acceleration frequency group |
-| C | input velocity \(v(t)\) |
+| C | input velocity $v(t)$ |
 | D | velocity frequency group |
-| E | input-side QSM Power \(P(t)=a(t)v(t)\) |
+| E | input-side QSM Power $P(t)=a(t)v(t)$ |
 | F | QSM Power frequency group |
 | G | 1-second QSM Power Packet |
 | H | Interface Power / Work exchange |
@@ -169,7 +164,7 @@ The main article uses Group1–Group4 as the primary evidence set.
 ## How to Read the Main Figures
 
 ### Figure 1  
-`Fig01_core_power_viewpoint_transformation.png`
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig01_core_power_viewpoint_transformation.png)
 
 This figure compares the relationship between measured isolation displacement and six different quantities:
 
@@ -190,13 +185,11 @@ input motion
 ```
 
 ### Figure 2  
-`Fig02_qsm_power_frequency_group_contact_combined.png`
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig02_qsm_power_frequency_group_contact_combined.png)
 
 This figure shows how QSM Power Frequency Groups contact the effective isolation-frequency family:
 
-\[
-0.5f_{\mathrm{eff}},\ f_{\mathrm{eff}},\ 2f_{\mathrm{eff}},\ 3f_{\mathrm{eff}},\ 4f_{\mathrm{eff}}
-\]
+$$0.5f_{\mathrm{eff}},\ f_{\mathrm{eff}},\ 2f_{\mathrm{eff}},\ 3f_{\mathrm{eff}},\ 4f_{\mathrm{eff}}$$
 
 The purpose of Figure 2 is not to reduce the response to one dominant frequency.  
 It shows that seismic power can enter the isolation system through a group of frequency components.
@@ -239,16 +232,12 @@ The script performs the following steps:
 3. computes input velocity by integrating acceleration,
 4. computes input-side QSM Power Flow:
 
-\[
-P_{\mathrm{in}}(t)=a(t)v(t)
-\]
+$$P_{\mathrm{in}}(t)=a(t)v(t)$$
 
 5. computes the 1-second QSM Power Packet,
 6. computes Interface Power / Work Exchange:
 
-\[
-F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)
-\]
+$$F_{\mathrm{interface}}(t)v_{\mathrm{rel}}(t)$$
 
 7. extracts local frequency groups,
 8. generates group-level figures,

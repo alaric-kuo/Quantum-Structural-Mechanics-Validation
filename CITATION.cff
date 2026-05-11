@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite this validation work first, and cite the source study and dataset where appropriate."
+title: "Quantum Structural Mechanics Validation"
+authors:
+  - family-names: "Kuo"
+    given-names: "Han-Jung"
+    orcid: ""
+date-released: "2026-05-10"
+repository-code: "https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation"
+url: "https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation"
+preferred-citation:
+  type: generic
+  title: "Validating Quantum Structural Mechanics with Spherical Sliding Isolation Test Data"
+  authors:
+    - family-names: "Kuo"
+      given-names: "H.-J."
+  year: 2026
+  url: "https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation"
+references:
+  - type: generic
+    title: "Quantum Structural Mechanics: From Stiffness Assets to Value Flow"
+    authors:
+      - family-names: "Kuo"
+        given-names: "H.-J."
+    year: 2026
+    doi: "10.13140/RG.2.2.27121.13928"
+  - type: article
+    title: "An experimental study of a spherical sliding isolation system subjected to pulse-like ground motions"
+    authors:
+      - family-names: "Yang"
+        given-names: "Y.-H."
+      - family-names: "Huang"
+        given-names: "Y.-N."
+      - family-names: "Lin"
+        given-names: "Y.-C."
+      - family-names: "Chang"
+        given-names: "C.-C."
+    year: 2026
+    doi: "10.1002/esp4.70074"
+  - type: data
+    title: "Dataset of an Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions"
+    authors:
+      - family-names: "Yang"
+        given-names: "Y.-H."
+      - family-names: "Lin"
+        given-names: "Y.-C."
+      - family-names: "Chang"
+        given-names: "C.-C."
+      - family-names: "Huang"
+        given-names: "Y.-N."
+    year: 2025
+    doi: "10.5281/zenodo.15606761"

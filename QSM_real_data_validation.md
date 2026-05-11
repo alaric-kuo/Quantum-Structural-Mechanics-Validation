@@ -298,6 +298,8 @@ Group1 顯示，在短週期脈衝輸入下，加速度不是主要解釋軸，�
 
 Group2 是中週期脈衝組，也是最適合展示「速度脈衝 → Power Packet → Interface Exchange → 大位移」的組別。原論文指出 medium $T_p$ 的脈衝型地震會造成較大的隔震位移。QSM 的分析可以補上更具機制性的說明：中週期速度脈衝更容易把輸入能勢整理成有效 Power Packet，並在介面形成強烈做功交換。
 
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/Group2_Fig01_core_power_viewpoint_transformation.png)
+
 Group2 Figure 1 中，Input Acceleration Peak 幾乎沒有解釋力：
 
 
@@ -331,9 +333,7 @@ Pearson r ≈ 0.539，Spearman ρ ≈ 0.527。
 
 這個差異很關鍵。它表示 Group2 的大位移不是由總能量累積單獨決定，而是由有效時間窗內的 Interface Power/Work Packet 決定。也就是說，能勢是否集中進入隔震介面，比最後總共累積多少更接近位移峰值的形成。
 
-[建議置入 Group2 Figure 1：中週期脈衝組之 加速度／速度、QSM Power、Interface Work 與 IsoDisp 關係]
-
-[建議置入 Group2 Figure 2：中週期脈衝組之 QSM Power 頻率群接觸圖譜 (Frequency-Group Contact Map)]
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/Group2_Fig02_qsm_power_frequency_group_contact_combined.png)
 
 Group2 Figure 2 顯示中週期脈衝組的核心特徵：位移水準整體明顯高於 Group1，且許多高位移資料在 $2f_{\mathrm{eff}}$ 、 $3f_{\mathrm{eff}}$ 、 $4f_{\mathrm{eff}}$ 附近仍保有 QSM Power Frequency Group的接觸。這與 Group1 不同。Group1 更像短時間能勢事件；Group2 則呈現較長週期速度脈衝把能勢持續推入隔震系統，形成更大的介面做功與更大的位移顯化。
 
@@ -344,6 +344,8 @@ Group2 Figure 2 顯示中週期脈衝組的核心特徵：位移水準整體明�
 ## Group2 代表案例
 
 ### RSN170：高位移案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/RSN170_1_0_31_V25_core_diagnosis.png)
 
 RSN170 的量測隔震位移峰值為 588.7 mm，峰值時間約為 4 s。其主要數值如下：
 
@@ -363,6 +365,8 @@ RSN170 的量測隔震位移峰值為 588.7 mm，峰值時間約為 4 s。其主
 
 ### RSN983：中高位移案例
 
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/RSN983_1_0_22_V25_core_diagnosis.png)
+
 RSN983 的量測隔震位移峰值為 374.4 mm，峰值時間約為 2.133 s。其主要數值如下：
 
 - 輸入加速度峰值 (Input Acceleration Peak)：0.342 g
@@ -380,6 +384,8 @@ RSN983 的量測隔震位移峰值為 374.4 mm，峰值時間約為 2.133 s。�
 這筆資料顯示，中高位移不一定只由單一瞬時峰值決定，而要同時看 Power Packet、Measured Interface Power/Work Packet 與頻率群轉換。它適合作為中間層案例，用來說明能勢強度、介面交換與位移顯化之間不是單一線性關係。
 
 ### RSN8130：中等位移案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/RSN8130_1_0_21_V25_core_diagnosis.png)
 
 RSN8130 的量測隔震位移峰值為 165.0 mm，峰值時間約為 4.938 s。其主要數值如下：
 
@@ -406,6 +412,8 @@ Group2 是 QSM Power Flow 最清楚的中週期脈衝證據。它說明中週期
 # 六、Group3：非脈衝案例中的分散能勢場與低頻位移顯化
 
 Group3 是 non-pulse-like group。傳統上，這組容易被視為脈衝組的對照。但 QSM 的分析顯示，Group3 不應只被理解為「沒有脈衝」。它更像是一種分散能勢場：能勢不以清楚單一速度脈衝進入系統，而是透過更長時間、更寬頻率群、更分散的方式進入隔震介面，最後仍可能顯化為大位移。
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/Group3_Fig01_core_power_viewpoint_transformation.png)
 
 Group3 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 的關係不高：
 
@@ -441,9 +449,7 @@ Pearson r ≈ 0.533，Spearman ρ ≈ 0.576。
 
 這些關係不像 Group2 那麼強，但合理。非脈衝輸入的能勢不集中於單一短時間窗，而是以較分散方式進入系統。因此，Group3 的分析不能只盯著單一 peak 或單一 packet，必須同時看 Input-Side Power、Interface Exchange、Frequency Group 與 displacement response。
 
-[建議置入 Group3 Figure 1：非脈衝組之 加速度／速度、QSM Power、Interface Work 與 IsoDisp 關係]
-
-[建議置入 Group3 Figure 2：非脈衝組之 QSM Power 頻率群接觸圖譜 (Frequency-Group Contact Map)]
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/Group3_Fig02_qsm_power_frequency_group_contact_combined.png)
 
 Group3 Figure 2 是本文中最容易被低估、也最重要的分組頻率圖。因為 Group3 被原研究歸類為 non-pulse-like，很容易被讀成「沒有明顯脈衝，因此比較不危險」。但這張圖顯示，非脈衝並不代表沒有能勢場；它代表能勢不是以單一清楚速度脈衝進入，而是以更分散、更寬頻、更長時間的方式進入。
 
@@ -456,6 +462,8 @@ Group3 Figure 2 也顯示，多數中低位移案例在 0.5–1.5 Hz 附近有�
 ## Group3 代表案例
 
 ### RSN175FN：中高位移案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/RSN175FN_1_0_31_V25_core_diagnosis.png)
 
 RSN175FN 的量測隔震位移峰值為 336.6 mm，峰值時間約為 7.113 s。其主要數值如下：
 
@@ -475,6 +483,8 @@ RSN175FN 的量測隔震位移峰值為 336.6 mm，峰值時間約為 7.113 s。
 
 ### RSN878FN：中等位移案例
 
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/RSN878FN_1_0_31_V25_core_diagnosis.png)
+
 RSN878FN 的量測隔震位移峰值為 140.3 mm，峰值時間約為 40.91 s。其主要數值如下：
 
 - 輸入加速度峰值 (Input Acceleration Peak)：0.275 g
@@ -492,6 +502,8 @@ RSN878FN 的量測隔震位移峰值為 140.3 mm，峰值時間約為 40.91 s。
 這筆資料屬於中等位移反應。它的價值在於提供對照：即使存在 QSM Power Frequency Group 與 Interface Frequency Group，若介面做功波包或位移接收條件不足，位移仍不會被推到最高層級。
 
 ### RSN1164FP：高位移案例
+
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/RSN1164FP_1_0_31_V25_core_diagnosis.png)
 
 RSN1164FP 的量測隔震位移峰值為 885.3 mm，峰值時間約為 59.37 s。其主要數值如下：
 

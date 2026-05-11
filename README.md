@@ -165,7 +165,7 @@ The main article uses Group1-Group4 as the primary evidence set.
 ## How to Read the Main Figures
 
 ### Figure 1  
-`Fig01_core_power_viewpoint_transformation.png`
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig01_core_power_viewpoint_transformation.png)
 
 This figure compares the relationship between measured isolation displacement and six different quantities:
 
@@ -186,7 +186,7 @@ input motion
 ```
 
 ### Figure 2  
-`Fig02_qsm_power_frequency_group_contact_combined.png`
+![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig02_qsm_power_frequency_group_contact_combined.png)
 
 This figure shows how QSM Power Frequency Groups contact the effective isolation-frequency family:
 

@@ -32,11 +32,17 @@ The central finding is that the clearest relationship with measured upper-lower 
 
 ## Research Basis
 
-This work is based on the public experimental dataset associated with:
+This repository is built on the experimental study and public dataset listed below.
 
-**Yang, Ya-Heng; Huang, Yin-Nan; Lin, Yu-Chen; Chang, Chang-Ching.**  
-*An Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions.*  
-DOI: `10.1002/esp4.70074`
+### References
+
+Yang, Y.-H., Huang, Y.-N., Lin, Y.-C., & Chang, C.-C. (2026). *An experimental study of a spherical sliding isolation system subjected to pulse-like ground motions*. Earthquake Spectra. https://doi.org/10.1002/esp4.70074
+
+Kuo, H.-J. (2026). *Quantum Structural Mechanics: From Stiffness Assets to Value Flow*. ResearchGate. https://doi.org/10.13140/RG.2.2.27121.13928
+
+### Data Source
+
+Yang, Y.-H., Lin, Y.-C., Chang, C.-C., & Huang, Y.-N. (2025). *Dataset of an Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15606761
 
 The original study shows that acceleration alone, or average spectral acceleration alone, is not sufficient to explain the displacement demand of the isolation system under pulse-like ground motions.
 
@@ -72,6 +78,8 @@ Quantum-Structural-Mechanics-Validation/
 │   └── QSM_Validation.py
 │
 ├── requirements.txt
+├── CITATION.cff
+├── LICENSE.md
 └── README.md
 ```
 
@@ -164,8 +172,9 @@ The main article uses Group1-Group4 as the primary evidence set.
 
 ## How to Read the Main Figures
 
-### Figure 1  
-![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig01_core_power_viewpoint_transformation.png)
+### Figure 1
+
+![Figure 1: Core Power Viewpoint Transformation](data/Fig01_core_power_viewpoint_transformation.png)
 
 This figure compares the relationship between measured isolation displacement and six different quantities:
 
@@ -185,15 +194,15 @@ input motion
 → measured displacement manifestation
 ```
 
-### Figure 2  
-![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Fig02_qsm_power_frequency_group_contact_combined.png)
+### Figure 2
+
+![Figure 2: QSM Power Frequency Group Contact](data/Fig02_qsm_power_frequency_group_contact_combined.png)
 
 This figure shows how QSM Power Frequency Groups contact the effective isolation-frequency family:
 
 $$0.5f_{\mathrm{eff}},f_{\mathrm{eff}},2f_{\mathrm{eff}},3f_{\mathrm{eff}},4f_{\mathrm{eff}}$$
 
-The purpose of Figure 2 is not to reduce the response to one dominant frequency.  
-It shows that seismic power can enter the isolation system through a group of frequency components.
+The purpose of Figure 2 is not to reduce the response to one dominant frequency. It shows that seismic power can enter the isolation system through a group of frequency components.
 
 ---
 
@@ -278,11 +287,9 @@ pip install numpy pandas matplotlib scipy
 
 This repository contains the processed QSM validation outputs, summary figures, CSV tables, and article materials.
 
-To fully reproduce the analysis, users must download the original experimental shaking-table dataset associated with the source study:
+To fully reproduce the analysis, users must download the original experimental shaking-table dataset:
 
-**Yang, Ya-Heng; Huang, Yin-Nan; Lin, Yu-Chen; Chang, Chang-Ching.**  
-*An Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions.*  
-DOI: `10.1002/esp4.70074`
+Yang, Y.-H., Lin, Y.-C., Chang, C.-C., & Huang, Y.-N. (2025). *Dataset of an Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15606761
 
 The raw data should be placed in a local folder chosen by the user.
 
@@ -365,12 +372,51 @@ The script will read the raw records from `RAW_ROOT` and write the generated fig
 
 ---
 
+## Optional Path Override for Advanced Users
+
+The author's original paths can be kept in the script. For better portability, users may also modify `src/QSM_Validation.py` to support environment-variable overrides:
+
+```python
+import os
+
+RAW_ROOT = Path(os.environ.get(
+    "QSM_RAW_ROOT",
+    r"D:\OneDrive\文件\Quantum Structural Mechanics\Validation"
+    r"\data_shakeTableTest_SlidingBearing_PulseLikeGMs"
+    r"\data_earthquakeSpectra\raw data"
+))
+
+OUT_ROOT = Path(os.environ.get(
+    "QSM_OUT_ROOT",
+    r"D:\OneDrive\文件\Quantum Structural Mechanics\Validation"
+    r"\QSM_Validation_V25_AllGroups"
+))
+```
+
+On Windows PowerShell:
+
+```powershell
+$env:QSM_RAW_ROOT="C:\Users\your_name\Documents\QSM_Validation\data_shakeTableTest_SlidingBearing_PulseLikeGMs\data_earthquakeSpectra\raw data"
+$env:QSM_OUT_ROOT="C:\Users\your_name\Documents\QSM_Validation\QSM_Validation_V25_AllGroups"
+python src/QSM_Validation.py
+```
+
+On macOS or Linux:
+
+```bash
+export QSM_RAW_ROOT="/Users/your_name/Documents/QSM_Validation/data_shakeTableTest_SlidingBearing_PulseLikeGMs/data_earthquakeSpectra/raw data"
+export QSM_OUT_ROOT="/Users/your_name/Documents/QSM_Validation/QSM_Validation_V25_AllGroups"
+python src/QSM_Validation.py
+```
+
+---
+
 ## Reproducing the Analysis
 
 To reproduce the full pipeline, users need:
 
 1. this repository,
-2. the original raw shaking-table dataset,
+2. the original raw shaking-table dataset from Zenodo,
 3. a local Python environment with the packages listed in `requirements.txt`,
 4. local `RAW_ROOT` and `OUT_ROOT` paths configured for their own machine.
 
@@ -399,7 +445,7 @@ each record:
 
 The committed data outputs in this repository are generated from the author's validation run.
 
-This repository mainly stores the processed validation outputs and article materials. The original raw shaking-table data should be obtained from the public dataset associated with the source study.
+This repository stores the processed validation outputs and article materials. The original raw shaking-table data should be obtained from the Zenodo dataset listed in the Data Source section.
 
 ---
 
@@ -416,8 +462,7 @@ seismic input
 → displacement manifestation
 ```
 
-The key contribution is that the isolation system is not read only as a stiffness system receiving external force.  
-It is read as a power-transmission and power-conversion system.
+The key contribution is that the isolation system is not read only as a stiffness system receiving external force. It is read as a power-transmission and power-conversion system.
 
 This provides a different interpretation of seismic isolation response:
 
@@ -432,19 +477,28 @@ This provides a different interpretation of seismic isolation response:
 
 ## Citation
 
-If you use this repository, please cite:
+If you use this repository, please cite the QSM framework and the source experimental study:
 
 ```text
-Kuo, Han-Jung. Quantum Structural Mechanics Validation: Real-Data Validation with Spherical Sliding Isolation Test Data. GitHub repository, 2026.
+Kuo, H.-J. (2026). Quantum Structural Mechanics: From Stiffness Assets to Value Flow. ResearchGate. https://doi.org/10.13140/RG.2.2.27121.13928
+
+Yang, Y.-H., Huang, Y.-N., Lin, Y.-C., & Chang, C.-C. (2026). An experimental study of a spherical sliding isolation system subjected to pulse-like ground motions. Earthquake Spectra. https://doi.org/10.1002/esp4.70074
+
+Yang, Y.-H., Lin, Y.-C., Chang, C.-C., & Huang, Y.-N. (2025). Dataset of an Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15606761
 ```
 
-and the source experimental study:
+---
+
+## License
+
+Recommended license structure:
 
 ```text
-Yang, Ya-Heng; Huang, Yin-Nan; Lin, Yu-Chen; Chang, Chang-Ching.
-An Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions.
-DOI: 10.1002/esp4.70074.
+Code: MIT License
+Articles, figures, and processed validation outputs: CC BY 4.0
 ```
+
+See `LICENSE.md` for details.
 
 ---
 

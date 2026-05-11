@@ -168,7 +168,7 @@ $$
 
 跨案例群組的結果顯示：
 
-- 輸入端 QSM Power peak：Pearson r ≈ 0.424，Spearman ρ ≈ 0.466
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.424，Spearman ρ ≈ 0.466
 - 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.461，Spearman ρ ≈ 0.448
 
 這些數值本身不是最強，但它們完成了一個關鍵轉向：地震輸入從運動量測變成能勢事件。真正最強的結果出現在介面層：
@@ -199,19 +199,18 @@ Group1 是短週期脈衝案例。它不是位移最大的一組，但非常適�
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group1/Group1_Fig01_core_power_viewpoint_transformation.png)
 
-在 Group1 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 的關係很弱，甚至呈現負相關：
+在 Group1 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 的關係很弱，甚至呈現負相關。
 
 
-Pearson r ≈ -0.217，Spearman ρ ≈ -0.127。
+- 輸入加速度峰值 (Input Acceleration Peak)：Pearson r ≈ -0.217，Spearman ρ ≈ -0.127
 
-進入 Input Velocity Peak 後，關係變得非常清楚：
+進入 Input Velocity Peak 後，關係變得非常清楚。
 
-
-Pearson r ≈ 0.854，Spearman ρ ≈ 0.733。
+- 輸入速度峰值 (Input Velocity Peak)：Pearson r ≈ 0.854，Spearman ρ ≈ 0.733
 
 這代表 Group1 的位移不是由加速度峰值決定，而更接近速度脈衝的推動效果。接著看 QSM Power：
 
-- 輸入端 QSM Power peak：Pearson r ≈ 0.757，Spearman ρ ≈ 0.794
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.757，Spearman ρ ≈ 0.794
 - 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.840，Spearman ρ ≈ 0.624
 - 量測介面做功波包 (Measured Interface Power/Work Packet)：Pearson r ≈ 0.901，Spearman ρ ≈ 0.964
 - 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.782，Spearman ρ ≈ 0.782
@@ -300,36 +299,30 @@ Group2 是中週期脈衝組，也是最適合展示「速度脈衝 → Power Pa
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group2/Group2_Fig01_core_power_viewpoint_transformation.png)
 
-Group2 Figure 1 中，Input Acceleration Peak 幾乎沒有解釋力：
+Group2 Figure 1 中，Input Acceleration Peak 幾乎沒有解釋力。
+
+- 輸入加速度峰值 (Input Acceleration Peak)：Pearson r ≈ 0.059，Spearman ρ ≈ -0.200
+
+Input Velocity Peak 明顯提高。
+
+- 輸入速度峰值 (Input Velocity Peak)：Pearson r ≈ 0.777，Spearman ρ ≈ 0.806
+
+輸入端 QSM Power peak 只有中等關係。
+
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.468，Spearman ρ ≈ 0.406
+
+但輸入端 1s QSM Power Packet 明顯更好。
+
+- 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.704，Spearman ρ ≈ 0.770
+
+這表示 Group2 的重點不在瞬間 shock，而在一段可持續的能勢波包。最強證據仍然出現在介面。
+
+- 量測介面做功波包 (Measured Interface Power/Work Packet)：Interface Power/Work Packet：Pearson r ≈ 0.889，Spearman ρ ≈ 0.794
 
 
-Pearson r ≈ 0.059，Spearman ρ ≈ -0.200。
+相較之下，Accumulated Interface Work如下。
 
-Input Velocity Peak 明顯提高：
-
-
-Pearson r ≈ 0.777，Spearman ρ ≈ 0.806。
-
-輸入端 QSM Power peak 只有中等關係：
-
-
-Pearson r ≈ 0.468，Spearman ρ ≈ 0.406。
-
-但輸入端 QSM 1s Power Packet 明顯更好：
-
-
-Pearson r ≈ 0.704，Spearman ρ ≈ 0.770。
-
-這表示 Group2 的重點不在瞬間 shock，而在一段可持續的能勢波包。最強證據仍然出現在介面：
-
-
-Interface Power/Work Packet：Pearson r ≈ 0.889，Spearman ρ ≈ 0.794。
-
-
-相較之下，Accumulated Interface Work 為：
-
-
-Pearson r ≈ 0.539，Spearman ρ ≈ 0.527。
+- 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.539，Spearman ρ ≈ 0.527
 
 這個差異很關鍵。它表示 Group2 的大位移不是由總能量累積單獨決定，而是由有效時間窗內的 Interface Power/Work Packet 決定。也就是說，能勢是否集中進入隔震介面，比最後總共累積多少更接近位移峰值的形成。
 
@@ -415,37 +408,31 @@ Group3 是 non-pulse-like group。傳統上，這組容易被視為脈衝組的�
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group3/Group3_Fig01_core_power_viewpoint_transformation.png)
 
-Group3 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 的關係不高：
+Group3 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 的關係不高。
 
+- 輸入加速度峰值 (Input Acceleration Peak)：Pearson r ≈ 0.287，Spearman ρ ≈ 0.370
 
-Pearson r ≈ 0.287，Spearman ρ ≈ 0.370。
+Input Velocity Peak 明顯提升。
 
-Input Velocity Peak 明顯提升：
+- 輸入速度峰值 (Input Velocity Peak)：Pearson r ≈ 0.559，Spearman ρ ≈ 0.733
 
+QSM Power peak 顯示出有趣的排序性。
 
-Pearson r ≈ 0.559，Spearman ρ ≈ 0.733。
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.486，Spearman ρ ≈ 0.794
 
-QSM Power peak 顯示出有趣的排序性：
+輸入端 1s QSM Power Packet如下。
 
-
-Pearson r ≈ 0.486，Spearman ρ ≈ 0.794。
-
-輸入端 QSM Power Packet：
-
-
-Pearson r ≈ 0.387，Spearman ρ ≈ 0.733。
+- 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.387，Spearman ρ ≈ 0.733
 
 這代表 Group3 的 Power 指標不一定呈現乾淨線性比例，但能分辨位移層級。這與 Group2 很不同。Group2 比較像一段中週期脈衝直接形成強 packet；Group3 則像分散能勢在頻率群與介面中重新組合。
 
-Interface Power/Work Packet：
+介面端Interface Power/Work Packet如下。
 
+- 量測介面做功波包 (Measured Interface Power/Work Packet)：Pearson r ≈ 0.586，Spearman ρ ≈ 0.576
 
-Pearson r ≈ 0.586，Spearman ρ ≈ 0.576。
+介面端Accumulated Interface Work如下。
 
-Accumulated Interface Work：
-
-
-Pearson r ≈ 0.533，Spearman ρ ≈ 0.576。
+- 累積介面做功 (Accumulated Interface Work)：Pearson r ≈ 0.533，Spearman ρ ≈ 0.576
 
 這些關係不像 Group2 那麼強，但合理。非脈衝輸入的能勢不集中於單一短時間窗，而是以較分散方式進入系統。因此，Group3 的分析不能只盯著單一 peak 或單一 packet，必須同時看 Input-Side Power、Interface Exchange、Frequency Group 與 displacement response。
 
@@ -535,30 +522,26 @@ QSM 的回答是：不一定。反應譜相似，不代表 QSM Power Flow、Inte
 
 ![image](https://github.com/alaric-kuo/Quantum-Structural-Mechanics-Validation/blob/main/data/Group4/Group4_Fig01_core_power_viewpoint_transformation.png)
 
-Group4 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 仍然偏弱：
+Group4 Figure 1 中，Input Acceleration Peak 與 隔震位移峰值 (IsoDisp peak) 仍然偏弱。
 
+- 輸入加速度峰值 (Input Acceleration Peak)：Pearson r ≈ 0.265，Spearman ρ ≈ 0.127
 
-Pearson r ≈ 0.265，Spearman ρ ≈ 0.127。
+Input Velocity Peak 相對提高到如下。
 
-Input Velocity Peak 提高到：
+- 輸入速度峰值 (Input Velocity Peak)：Pearson r ≈ 0.496，Spearman ρ ≈ 0.479
 
+輸入端 QSM Power peak如下。
 
-Pearson r ≈ 0.496，Spearman ρ ≈ 0.479。
+- 輸入端量子結構力學能勢峰值 (Input-Side QSM Power peak)：Pearson r ≈ 0.470，Spearman ρ ≈ 0.442
 
-輸入端 QSM Power peak：
+輸入端 QSM 1s Power Packet如下。
 
+- 輸入端一秒能勢波包 (Input-Side 1s QSM Power Packet)：Pearson r ≈ 0.448，Spearman ρ ≈ 0.418
 
-Pearson r ≈ 0.470，Spearman ρ ≈ 0.442。
+最關鍵仍然是 Interface Power/Work Packet與Accumulated Interface Work如下。
 
-輸入端 QSM 1s Power Packet：
-
-
-Pearson r ≈ 0.448，Spearman ρ ≈ 0.418。
-
-最關鍵仍然是 Interface Power/Work Packet：
-
-
-Pearson r ≈ 0.676，Spearman ρ ≈ 0.576。
+- 量測介面做功波包 (Measured Interface Power/Work Packet)：Pearson r ≈ 0.676，Spearman ρ ≈ 0.576
+- 累積介面做功 (Accumulated Interface Work)：：Pearson r ≈ 0.380，Spearman ρ ≈ 0.491
 
 它比 acceleration、velocity、輸入端 QSM Power 更接近 隔震位移峰值 (IsoDisp peak)。這說明 Group4 的差異真正開始在介面層被放大：輸入端看起來已經被頻譜匹配整理過，但到了隔震介面，Interface Power / Work Exchange 仍顯示不同的能勢交換強度。
 

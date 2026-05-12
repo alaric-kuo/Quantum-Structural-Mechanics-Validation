@@ -1,7 +1,7 @@
 # 以球面滑動隔震實驗資料驗證量子結構力學
 
 **作者：郭瀚嶸**
-**日期：2026.05.10**
+**日期：2026.05.12**
 
 ## 摘要
 本文以《An Experimental Study of a Spherical Sliding Isolation System Subjected to Pulse-Like Ground Motions》公開之球面滑動隔震系統實驗資料為基礎，嘗試以量子結構力學 (Quantum Structural Mechanics, QSM) 的觀點，重新閱讀地震波對隔震位移的作用機制。原研究已指出：對隔震系統而言，只依賴加速度或平均反應譜加速度，無法充分解釋實際隔震位移；速度脈衝、脈衝週期與隔震系統有效週期，必須一併納入討論。

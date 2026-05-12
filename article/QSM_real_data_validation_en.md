@@ -1,7 +1,7 @@
 # Validating Quantum Structural Mechanics with Spherical Sliding Isolation Test Data
 
 **Author: Han-Jung Kuo**  
-**Date: 2026.05.10**
+**Date: 2026.05.12**
 
 ## Abstract
 
